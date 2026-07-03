@@ -157,6 +157,46 @@ def unique_candidates(candidates: Iterable[Candidate]) -> list[Candidate]:
     return sorted(best.values(), key=lambda item: (item.event_date, -item.score))
 
 
+def nth_weekday_of_month(year: int, month: int, weekday: int, nth: int) -> date:
+    first = date(year, month, 1)
+    days_to_weekday = (weekday - first.weekday()) % 7
+    return first + timedelta(days=days_to_weekday + 7 * (nth - 1))
+
+
+def generate_rule_candidates(venue: dict, base: date, include_future_count: int) -> list[Candidate] | None:
+    rule = venue.get("scheduleRule")
+    if not rule:
+        return None
+    if rule.get("type") != "monthlyNthWeekday":
+        return None
+
+    nth = int(rule["nth"])
+    weekday = int(rule["weekday"])
+    label = rule.get("label") or f"毎月第{nth}{JP_WEEKDAYS[weekday]}曜日"
+    context = "\n".join(
+        part
+        for part in (
+            f"{venue['name']} 公式サイト記載の開催ルール: {label}",
+            "開催 18時00分から21時00分",
+            "会場",
+            venue.get("location", ""),
+        )
+        if part
+    )
+    candidates: list[Candidate] = []
+    year = base.year
+    month = base.month
+    while len(candidates) < include_future_count:
+        event_date = nth_weekday_of_month(year, month, weekday, nth)
+        if event_date >= base:
+            candidates.append(Candidate(event_date, 10, context, label))
+        month += 1
+        if month > 12:
+            month = 1
+            year += 1
+    return candidates
+
+
 def parse_clock(value: str) -> time:
     hour, minute = value.split(":")
     return time(int(hour), int(minute))
@@ -228,7 +268,7 @@ def build_event(venue: dict, candidate: Candidate) -> dict:
         "date": candidate.event_date.isoformat(),
         "startsAt": starts_at.isoformat(),
         "endsAt": ends_at.isoformat(),
-        "location": extract_location(candidate.context),
+        "location": extract_location(candidate.context) or venue.get("location", ""),
         "sourceUrl": venue["url"],
         "confidence": max(0, min(100, 55 + candidate.score * 5)),
         "sourceText": " / ".join(candidate.context.splitlines()[:8]),
@@ -241,7 +281,9 @@ def scrape(config: dict, base: date, include_future_count: int) -> tuple[list[di
     for venue in config["venues"]:
         try:
             lines = html_to_lines(fetch_url(venue["url"]))
-            candidates = unique_candidates(collect_candidates(lines, base))
+            candidates = generate_rule_candidates(venue, base, include_future_count)
+            if candidates is None:
+                candidates = unique_candidates(collect_candidates(lines, base))
             picked = candidates[:include_future_count]
             for candidate in picked:
                 events.append(build_event(venue, candidate))

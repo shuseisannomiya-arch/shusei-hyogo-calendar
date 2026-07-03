@@ -1,61 +1,9 @@
 {
   "calendarName": "守成クラブ兵庫県・近隣会場 例会日程",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-07-01T08:40:38+09:00",
-  "sourceUpdatedAt": "Wed, 01 Jul 2026 08:40:38 +0900",
+  "generatedAt": "2026-07-03T14:08:52+09:00",
+  "sourceUpdatedAt": "Fri, 03 Jul 2026 14:08:52 +0900",
   "events": [
-    {
-      "id": "a2f9eece9e877e93a9135e36ee4f82a1a5cf0e38@shusei-hyogo-calendar",
-      "venue": "あさの明石会場",
-      "area": "播磨",
-      "title": "守成クラブあさの明石会場 例会",
-      "date": "2026-07-01",
-      "startsAt": "2026-07-01T10:00:00+09:00",
-      "endsAt": "2026-07-01T12:00:00+09:00",
-      "location": "",
-      "sourceUrl": "https://asanoakashi-shusei.club/",
-      "confidence": 100,
-      "sourceText": "他会場所属 / 参加申込フォーム / 開催概要 / 日程 / 2026年7月1日（水） / 開催 / 時間:10:00〜12:00（受付9:00〜） / 大名刺交換会がありますので、9:45までに受付を済ませておいてください。"
-    },
-    {
-      "id": "9c606d240093ac3ccbddc4412e13fdc9cbaf2d66@shusei-hyogo-calendar",
-      "venue": "神戸オリエンタル会場",
-      "area": "神戸",
-      "title": "守成クラブ神戸オリエンタル会場 例会",
-      "date": "2026-07-01",
-      "startsAt": "2026-07-01T18:00:00+09:00",
-      "endsAt": "2026-07-01T21:00:00+09:00",
-      "location": "",
-      "sourceUrl": "https://kobe-oriental-shusei.club/",
-      "confidence": 100,
-      "sourceText": "参加申込フォーム / 商談報告フォーム / 第66回例会のお知らせ / 日程 / 2026年7月1日（水） / 開催 / 例会:18:00〜21:00(受付17:15〜) ※ゲストと紹介者は17:30集合 / 概要"
-    },
-    {
-      "id": "45a842a0c60dea8f5cab64bb0fc7c309570cff73@shusei-hyogo-calendar",
-      "venue": "昼ノみなと神戸会場",
-      "area": "神戸",
-      "title": "守成クラブ昼ノみなと神戸会場 例会",
-      "date": "2026-07-02",
-      "startsAt": "2026-07-02T11:30:00+09:00",
-      "endsAt": "2026-07-02T14:30:00+09:00",
-      "location": "",
-      "sourceUrl": "https://hiruno-minatokobe.club/",
-      "confidence": 85,
-      "sourceText": "参加費:2,000円 / 内容:飲み放題（アルコールあり）、軽食 / 参加:自由参加 / 第71回 / 2026年7月2日（木） / 第72回 / 2026年8月6日（木） / 第73回"
-    },
-    {
-      "id": "0c04ee35c61efb7c80721f1fe1b614e344e3493b@shusei-hyogo-calendar",
-      "venue": "ヒルノ大阪豊中会場",
-      "area": "大阪",
-      "title": "守成クラブヒルノ大阪豊中会場 例会",
-      "date": "2026-07-02",
-      "startsAt": "2026-07-02T14:30:00+09:00",
-      "endsAt": "2026-07-02T17:30:00+09:00",
-      "location": "",
-      "sourceUrl": "https://hot-shusei.com/",
-      "confidence": 100,
-      "sourceText": "More >> / 最新の例会のご案内 / 第2回守成クラブヒルノ大阪豊中例会 / 開催日: / 2026年07月02日（木） / 時 間: / ■例会:14:30～17:30 / ■受付:13:30～"
-    },
     {
       "id": "6a54d7a24602fc1d6a0c1c452f8d3f584d8ac60d@shusei-hyogo-calendar",
       "venue": "ヒルノ神戸ベイサイド会場",
@@ -226,6 +174,19 @@
       "sourceText": "他会場所属 / 参加申込フォーム / 開催概要 / 日程 / 2026年7月15日（水） / 開催 / 時間:18:00〜20:30（受付17:00〜）※ゲストと紹介者は17:00までに集合 / 概要"
     },
     {
+      "id": "2ec96e2adb90bc3006a754c2ac935a81ab3cbc2c@shusei-hyogo-calendar",
+      "venue": "阪神尼崎会場",
+      "area": "阪神間",
+      "title": "守成クラブ阪神尼崎会場 例会",
+      "date": "2026-07-15",
+      "startsAt": "2026-07-15T18:00:00+09:00",
+      "endsAt": "2026-07-15T21:00:00+09:00",
+      "location": "ホテルヴィスキオ尼崎",
+      "sourceUrl": "https://hanshin-ama-shusei.club/",
+      "confidence": 100,
+      "sourceText": "阪神尼崎会場 公式サイト記載の開催ルール: 毎月第3水曜日 / 開催 18時00分から21時00分 / 会場 / ホテルヴィスキオ尼崎"
+    },
+    {
       "id": "b89d1e49d38e87789830e4fa508dcb2d2bd435ad@shusei-hyogo-calendar",
       "venue": "ヒルノ西宮えびす会場",
       "area": "阪神間",
@@ -365,8 +326,8 @@
       "endsAt": "2026-08-05T21:00:00+09:00",
       "location": "",
       "sourceUrl": "https://kobe-oriental-shusei.club/",
-      "confidence": 60,
-      "sourceText": "THE ORIENT(ジ オリエント) HPは / こちら / 〒650-0034 兵庫県神戸市中央区京町25 / 第67回 / 8月5日（水） / 第68回 / 9月2日（水） / 第69回"
+      "confidence": 100,
+      "sourceText": "参加申込フォーム / 商談報告フォーム / 第67回例会のお知らせ / 日程 / 2026年8月5日（水） / 開催 / 例会:18:00〜21:00(受付17:15〜) ※ゲストと紹介者は17:30集合 / 概要"
     },
     {
       "id": "9e1cf407ccdc5d2daf286034f921122092ca74a0@shusei-hyogo-calendar",
@@ -379,7 +340,20 @@
       "location": "",
       "sourceUrl": "https://hiruno-minatokobe.club/",
       "confidence": 85,
-      "sourceText": "参加:自由参加 / 第71回 / 2026年7月2日（木） / 第72回 / 2026年8月6日（木） / 第73回 / 2026年9月3日（木） / 第74回"
+      "sourceText": "参加費:2,000円 / 内容:飲み放題（アルコールあり）、軽食 / 参加:自由参加 / 第72回 / 2026年8月6日（木） / 第73回 / 2026年9月3日（木） / 第74回"
+    },
+    {
+      "id": "4381c58db87b0fba631caf85b412a1188e80f592@shusei-hyogo-calendar",
+      "venue": "ヒルノ大阪豊中会場",
+      "area": "大阪",
+      "title": "守成クラブヒルノ大阪豊中会場 例会",
+      "date": "2026-08-06",
+      "startsAt": "2026-08-06T14:30:00+09:00",
+      "endsAt": "2026-08-06T17:30:00+09:00",
+      "location": "",
+      "sourceUrl": "https://hot-shusei.com/",
+      "confidence": 100,
+      "sourceText": "More >> / 最新の例会のご案内 / 第3回守成クラブヒルノ大阪豊中例会 / 開催日: / 2026年08月06日（木） / 時 間: / ■例会:14:30～17:30 / ■受付:13:30～"
     },
     {
       "id": "afb359d48231655a54a05915583229e6b569e84a@shusei-hyogo-calendar",
@@ -408,19 +382,6 @@
       "sourceText": "- / 第107回 / 7月13日(月) / 第108回 / 8月10日(月) / 第109回 / 9月14日(月) / 第110回"
     },
     {
-      "id": "192e77016ea1ddf4869779269904535128af6c91@shusei-hyogo-calendar",
-      "venue": "淡路島会場",
-      "area": "淡路",
-      "title": "守成クラブ淡路島会場 例会",
-      "date": "2026-08-11",
-      "startsAt": "2026-08-11T18:00:00+09:00",
-      "endsAt": "2026-08-11T21:00:00+09:00",
-      "location": "淡路島観光ホテル",
-      "sourceUrl": "https://www.awaji-ganbare.com/",
-      "confidence": 100,
-      "sourceText": "こちらをご覧ください > / 例会の予定告知 / 2026年8月 第65回例会 / 日程: / 2026/08/11(火) / 時間: / 18:30 / 会場:"
-    },
-    {
       "id": "a479c79829dc6ca9bb91a507d4f7da82df7fcfbc@shusei-hyogo-calendar",
       "venue": "姫路白鷺会場",
       "area": "播磨",
@@ -432,6 +393,19 @@
       "sourceUrl": "https://himeji-shirasagi-shusei.club/",
       "confidence": 85,
       "sourceText": "・大名刺交換会を予定しておりますので、各自名刺を150枚以上持参してください。 / 第70回 / 7月8日（水） / 第71回 / 8月12日（水） / 第72回 / 9月9日（水） / 第73回"
+    },
+    {
+      "id": "0a70035ac219d2c1da7102440e61fbd9b69676f1@shusei-hyogo-calendar",
+      "venue": "淡路島会場",
+      "area": "淡路",
+      "title": "守成クラブ淡路島会場 例会",
+      "date": "2026-08-12",
+      "startsAt": "2026-08-12T18:00:00+09:00",
+      "endsAt": "2026-08-12T21:00:00+09:00",
+      "location": "淡路島観光ホテル",
+      "sourceUrl": "https://www.awaji-ganbare.com/",
+      "confidence": 100,
+      "sourceText": "こちらをご覧ください > / 例会の予定告知 / 2026年8月 第65回例会 / 日程: / 2026/08/12(水) / 時間: / 18:30 / 会場:"
     },
     {
       "id": "c282c6b5f34a700d604704e4e726d584f8275297@shusei-hyogo-calendar",
@@ -484,6 +458,19 @@
       "sourceUrl": "https://kakogawa-shusei.club/",
       "confidence": 85,
       "sourceText": "10時30分出発(時間厳守) / 第64回 / 7月15日（水） / 第65回 / 8月19日（水） / 第66回 / 9月16日（水） / 第67回"
+    },
+    {
+      "id": "60cddd83903179ac4f833fe3cd31e69174d9b280@shusei-hyogo-calendar",
+      "venue": "阪神尼崎会場",
+      "area": "阪神間",
+      "title": "守成クラブ阪神尼崎会場 例会",
+      "date": "2026-08-19",
+      "startsAt": "2026-08-19T18:00:00+09:00",
+      "endsAt": "2026-08-19T21:00:00+09:00",
+      "location": "ホテルヴィスキオ尼崎",
+      "sourceUrl": "https://hanshin-ama-shusei.club/",
+      "confidence": 100,
+      "sourceText": "阪神尼崎会場 公式サイト記載の開催ルール: 毎月第3水曜日 / 開催 18時00分から21時00分 / 会場 / ホテルヴィスキオ尼崎"
     },
     {
       "id": "2f9ee884b6798dbeb80ec9340940da4fc15c8c57@shusei-hyogo-calendar",
@@ -561,7 +548,7 @@
       "location": "",
       "sourceUrl": "https://kobe-oriental-shusei.club/",
       "confidence": 60,
-      "sourceText": "〒650-0034 兵庫県神戸市中央区京町25 / 第67回 / 8月5日（水） / 第68回 / 9月2日（水） / 第69回 / 10月1日（木） / 事務局からのお知らせ"
+      "sourceText": "THE ORIENT(ジ オリエント) HPは / こちら / 〒650-0034 兵庫県神戸市中央区京町25 / 第68回 / 9月2日（水） / 第69回 / 10月1日（木） / 第70回"
     },
     {
       "id": "dcecf58a314fd2bcd07067bc855888455b9550a7@shusei-hyogo-calendar",
@@ -573,8 +560,8 @@
       "endsAt": "2026-09-03T14:30:00+09:00",
       "location": "",
       "sourceUrl": "https://hiruno-minatokobe.club/",
-      "confidence": 60,
-      "sourceText": "2026年7月2日（木） / 第72回 / 2026年8月6日（木） / 第73回 / 2026年9月3日（木） / 第74回 / 2026年10月1日（木） / 第75回"
+      "confidence": 85,
+      "sourceText": "参加:自由参加 / 第72回 / 2026年8月6日（木） / 第73回 / 2026年9月3日（木） / 第74回 / 2026年10月1日（木） / 第75回"
     },
     {
       "id": "b2be14d34847e3470d14acb77e0ae2aba14fbb91@shusei-hyogo-calendar",
@@ -707,6 +694,19 @@
       "sourceText": "7月15日（水） / 第65回 / 8月19日（水） / 第66回 / 9月16日（水） / 第67回 / 10月21日（水） / 第68回"
     },
     {
+      "id": "ea2b7a5c301695046a2849c589bb0ebba8f69003@shusei-hyogo-calendar",
+      "venue": "阪神尼崎会場",
+      "area": "阪神間",
+      "title": "守成クラブ阪神尼崎会場 例会",
+      "date": "2026-09-16",
+      "startsAt": "2026-09-16T18:00:00+09:00",
+      "endsAt": "2026-09-16T21:00:00+09:00",
+      "location": "ホテルヴィスキオ尼崎",
+      "sourceUrl": "https://hanshin-ama-shusei.club/",
+      "confidence": 100,
+      "sourceText": "阪神尼崎会場 公式サイト記載の開催ルール: 毎月第3水曜日 / 開催 18時00分から21時00分 / 会場 / ホテルヴィスキオ尼崎"
+    },
+    {
       "id": "1163b518632e21ba218bd8ab3b99305062ed5ac8@shusei-hyogo-calendar",
       "venue": "みなと神戸会場",
       "area": "神戸",
@@ -803,12 +803,12 @@
       "area": "神戸",
       "title": "守成クラブ昼ノみなと神戸会場 例会",
       "date": "2026-10-01",
-      "startsAt": "2026-10-01T13:00:00+09:00",
+      "startsAt": "2026-10-01T11:30:00+09:00",
       "endsAt": "2026-10-01T14:30:00+09:00",
       "location": "",
       "sourceUrl": "https://hiruno-minatokobe.club/",
-      "confidence": 60,
-      "sourceText": "2026年8月6日（木） / 第73回 / 2026年9月3日（木） / 第74回 / 2026年10月1日（木） / 第75回 / 2026年11月5日（木） / 事務局からのお知らせ"
+      "confidence": 85,
+      "sourceText": "2026年8月6日（木） / 第73回 / 2026年9月3日（木） / 第74回 / 2026年10月1日（木） / 第75回 / 2026年11月5日（木） / 第76回"
     },
     {
       "id": "549fd4350b12369ac243621f6e9f665ed5fcb98e@shusei-hyogo-calendar",
@@ -821,7 +821,7 @@
       "location": "",
       "sourceUrl": "https://kobe-oriental-shusei.club/",
       "confidence": 60,
-      "sourceText": "8月5日（水） / 第68回 / 9月2日（水） / 第69回 / 10月1日（木） / 事務局からのお知らせ / 現在お知らせはありません / 上へ戻る"
+      "sourceText": "〒650-0034 兵庫県神戸市中央区京町25 / 第68回 / 9月2日（水） / 第69回 / 10月1日（木） / 第70回 / 11月4日（水） / 事務局からのお知らせ"
     },
     {
       "id": "268042a461c51c84442bb546d372922a3d840976@shusei-hyogo-calendar",
@@ -1006,6 +1006,19 @@
       "sourceText": "8月19日（水） / 第7回 / 9月16日（水） / 第8回 / 10月21日（水） / 第9回 / 11月18日（水） / 第10回"
     },
     {
+      "id": "3da33c58eac385ccd18a4acca134f182a7cd13d0@shusei-hyogo-calendar",
+      "venue": "阪神尼崎会場",
+      "area": "阪神間",
+      "title": "守成クラブ阪神尼崎会場 例会",
+      "date": "2026-10-21",
+      "startsAt": "2026-10-21T18:00:00+09:00",
+      "endsAt": "2026-10-21T21:00:00+09:00",
+      "location": "ホテルヴィスキオ尼崎",
+      "sourceUrl": "https://hanshin-ama-shusei.club/",
+      "confidence": 100,
+      "sourceText": "阪神尼崎会場 公式サイト記載の開催ルール: 毎月第3水曜日 / 開催 18時00分から21時00分 / 会場 / ホテルヴィスキオ尼崎"
+    },
+    {
       "id": "4a9a5b7cf46087a55a20df965e483e61dd904250@shusei-hyogo-calendar",
       "venue": "宝塚会場",
       "area": "阪神間",
@@ -1071,17 +1084,30 @@
       "sourceText": "09月02日（水） / 第8回 / 10月07日（水） / 第9回 / 11月04日（水） / 第10回 / 12月02日（水） / 第11回"
     },
     {
+      "id": "bd2b79316cd13081070c3c40da7ec8eff824605d@shusei-hyogo-calendar",
+      "venue": "神戸オリエンタル会場",
+      "area": "神戸",
+      "title": "守成クラブ神戸オリエンタル会場 例会",
+      "date": "2026-11-04",
+      "startsAt": "2026-11-04T18:00:00+09:00",
+      "endsAt": "2026-11-04T21:00:00+09:00",
+      "location": "",
+      "sourceUrl": "https://kobe-oriental-shusei.club/",
+      "confidence": 60,
+      "sourceText": "9月2日（水） / 第69回 / 10月1日（木） / 第70回 / 11月4日（水） / 事務局からのお知らせ / 現在お知らせはありません / 上へ戻る"
+    },
+    {
       "id": "3fd6c052e639dc8d38158a3775ed16d5116f5d81@shusei-hyogo-calendar",
       "venue": "昼ノみなと神戸会場",
       "area": "神戸",
       "title": "守成クラブ昼ノみなと神戸会場 例会",
       "date": "2026-11-05",
-      "startsAt": "2026-11-05T13:00:00+09:00",
+      "startsAt": "2026-11-05T11:30:00+09:00",
       "endsAt": "2026-11-05T14:30:00+09:00",
       "location": "",
       "sourceUrl": "https://hiruno-minatokobe.club/",
       "confidence": 60,
-      "sourceText": "2026年9月3日（木） / 第74回 / 2026年10月1日（木） / 第75回 / 2026年11月5日（木） / 事務局からのお知らせ / 2024年12月3日 更新 / 2025年イベント情報一覧"
+      "sourceText": "2026年9月3日（木） / 第74回 / 2026年10月1日（木） / 第75回 / 2026年11月5日（木） / 第76回 / 2026年12月3日（木） / 第77回"
     },
     {
       "id": "bbe699dafc098f70e0152f9c63ecbee10e0319c2@shusei-hyogo-calendar",
@@ -1214,6 +1240,19 @@
       "sourceText": "9月16日（水） / 第8回 / 10月21日（水） / 第9回 / 11月18日（水） / 第10回 / 12月16日（水） / 第11回"
     },
     {
+      "id": "474fd7713140f92734be1be4befc3283fe99eff2@shusei-hyogo-calendar",
+      "venue": "阪神尼崎会場",
+      "area": "阪神間",
+      "title": "守成クラブ阪神尼崎会場 例会",
+      "date": "2026-11-18",
+      "startsAt": "2026-11-18T18:00:00+09:00",
+      "endsAt": "2026-11-18T21:00:00+09:00",
+      "location": "ホテルヴィスキオ尼崎",
+      "sourceUrl": "https://hanshin-ama-shusei.club/",
+      "confidence": 100,
+      "sourceText": "阪神尼崎会場 公式サイト記載の開催ルール: 毎月第3水曜日 / 開催 18時00分から21時00分 / 会場 / ホテルヴィスキオ尼崎"
+    },
+    {
       "id": "d8f3dd9be7ecb2eaa05c0afefefc40255750e0db@shusei-hyogo-calendar",
       "venue": "みなと神戸会場",
       "area": "神戸",
@@ -1290,6 +1329,19 @@
       "sourceUrl": "https://asanoakashi-shusei.club/",
       "confidence": 85,
       "sourceText": "10月07日（水） / 第9回 / 11月04日（水） / 第10回 / 12月02日（水） / 第11回 / 01月06日（火） / 第12回"
+    },
+    {
+      "id": "3f0b610c0f01b3908924c7fd9154be4f1e6a2d52@shusei-hyogo-calendar",
+      "venue": "昼ノみなと神戸会場",
+      "area": "神戸",
+      "title": "守成クラブ昼ノみなと神戸会場 例会",
+      "date": "2026-12-03",
+      "startsAt": "2026-12-03T13:00:00+09:00",
+      "endsAt": "2026-12-03T14:30:00+09:00",
+      "location": "",
+      "sourceUrl": "https://hiruno-minatokobe.club/",
+      "confidence": 60,
+      "sourceText": "2026年10月1日（木） / 第75回 / 2026年11月5日（木） / 第76回 / 2026年12月3日（木） / 第77回 / 2027年1月7日（木） / 事務局からのお知らせ"
     },
     {
       "id": "0499e37238201ed314d666aaeab6353300b0de78@shusei-hyogo-calendar",
@@ -1396,6 +1448,19 @@
       "sourceText": "10月21日（水） / 第9回 / 11月18日（水） / 第10回 / 12月16日（水） / 第11回 / 1月20日（水） / 第12回"
     },
     {
+      "id": "dea7e90dce7c1179f496c9b46521b553e44a4bc9@shusei-hyogo-calendar",
+      "venue": "阪神尼崎会場",
+      "area": "阪神間",
+      "title": "守成クラブ阪神尼崎会場 例会",
+      "date": "2026-12-16",
+      "startsAt": "2026-12-16T18:00:00+09:00",
+      "endsAt": "2026-12-16T21:00:00+09:00",
+      "location": "ホテルヴィスキオ尼崎",
+      "sourceUrl": "https://hanshin-ama-shusei.club/",
+      "confidence": 100,
+      "sourceText": "阪神尼崎会場 公式サイト記載の開催ルール: 毎月第3水曜日 / 開催 18時00分から21時00分 / 会場 / ホテルヴィスキオ尼崎"
+    },
+    {
       "id": "f38c9b4f5644e9bc2d811bdd852ea53cf90fcbb6@shusei-hyogo-calendar",
       "venue": "ヒルノ西宮えびす会場",
       "area": "阪神間",
@@ -1487,6 +1552,19 @@
       "sourceText": "11月04日（水） / 第10回 / 12月02日（水） / 第11回 / 01月06日（火） / 第12回 / 02月03日（火） / 守成クラブとは"
     },
     {
+      "id": "b83974a83774902527f06ec3be382c145fdaa059@shusei-hyogo-calendar",
+      "venue": "昼ノみなと神戸会場",
+      "area": "神戸",
+      "title": "守成クラブ昼ノみなと神戸会場 例会",
+      "date": "2027-01-07",
+      "startsAt": "2027-01-07T13:00:00+09:00",
+      "endsAt": "2027-01-07T14:30:00+09:00",
+      "location": "",
+      "sourceUrl": "https://hiruno-minatokobe.club/",
+      "confidence": 60,
+      "sourceText": "2026年11月5日（木） / 第76回 / 2026年12月3日（木） / 第77回 / 2027年1月7日（木） / 事務局からのお知らせ / 2024年12月3日 更新 / 2025年イベント情報一覧"
+    },
+    {
       "id": "847a91efe9547c246d115eec2231416b8cd9e24e@shusei-hyogo-calendar",
       "venue": "はりま加古川会場",
       "area": "播磨",
@@ -1524,32 +1602,6 @@
       "sourceUrl": "https://harimakakogawa-shusei.club/",
       "confidence": 85,
       "sourceText": "12月16日（水） / 第11回 / 1月20日（水） / 第12回 / 2月17日（水） / 第13回 / 3月17日（水） / 守成クラブとは"
-    },
-    {
-      "id": "505b4f59da0843cca1b889e60fab87aa963ca1e1@shusei-hyogo-calendar",
-      "venue": "阪神尼崎会場",
-      "area": "阪神間",
-      "title": "守成クラブ阪神尼崎会場 例会",
-      "date": "2027-03-18",
-      "startsAt": "2027-03-18T18:00:00+09:00",
-      "endsAt": "2027-03-18T21:00:00+09:00",
-      "location": "",
-      "sourceUrl": "https://hanshin-ama-shusei.club/",
-      "confidence": 55,
-      "sourceText": "◆守成クラブ阪神尼崎会場では、全会員が必ず出欠報告をしていただくことをルールとしています。 / ◆お食事の用意のため、締切日以降のキャンセルの場合はキャンセル料(参加費全額)が必要となります。 / 今後の例会予定 / 第94回 / 3月18日(第3水曜日) / 第95回 / 4月15日(第3水曜日) / 第96回"
-    },
-    {
-      "id": "7a3e5d34b9cd4ac83ec92ad2a3ed535b8e93af43@shusei-hyogo-calendar",
-      "venue": "阪神尼崎会場",
-      "area": "阪神間",
-      "title": "守成クラブ阪神尼崎会場 例会",
-      "date": "2027-04-15",
-      "startsAt": "2027-04-15T18:00:00+09:00",
-      "endsAt": "2027-04-15T21:00:00+09:00",
-      "location": "",
-      "sourceUrl": "https://hanshin-ama-shusei.club/",
-      "confidence": 100,
-      "sourceText": "今後の例会予定 / 第94回 / 3月18日(第3水曜日) / 第95回 / 4月15日(第3水曜日) / 第96回 / 5月20日(第3水曜日) / 上へ戻る"
     }
   ],
   "errors": []

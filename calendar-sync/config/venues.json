@@ -43,7 +43,14 @@
       "area": "阪神間",
       "url": "https://hanshin-ama-shusei.club/",
       "defaultStart": "18:00",
-      "defaultEnd": "21:00"
+      "defaultEnd": "21:00",
+      "location": "ホテルヴィスキオ尼崎",
+      "scheduleRule": {
+        "type": "monthlyNthWeekday",
+        "nth": 3,
+        "weekday": 2,
+        "label": "毎月第3水曜日"
+      }
     },
     {
       "name": "明石会場",
