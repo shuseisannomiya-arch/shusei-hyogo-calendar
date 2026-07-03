@@ -1,8 +1,8 @@
 {
   "calendarName": "守成クラブ兵庫県・近隣会場 例会日程",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-07-03T14:08:52+09:00",
-  "sourceUpdatedAt": "Fri, 03 Jul 2026 14:08:52 +0900",
+  "generatedAt": "2026-07-03T16:56:54+09:00",
+  "sourceUpdatedAt": "Fri, 03 Jul 2026 16:56:54 +0900",
   "events": [
     {
       "id": "6a54d7a24602fc1d6a0c1c452f8d3f584d8ac60d@shusei-hyogo-calendar",
@@ -402,7 +402,7 @@
       "date": "2026-08-12",
       "startsAt": "2026-08-12T18:00:00+09:00",
       "endsAt": "2026-08-12T21:00:00+09:00",
-      "location": "淡路島観光ホテル",
+      "location": "淡路島観光ホテル（予定）",
       "sourceUrl": "https://www.awaji-ganbare.com/",
       "confidence": 100,
       "sourceText": "こちらをご覧ください > / 例会の予定告知 / 2026年8月 第65回例会 / 日程: / 2026/08/12(水) / 時間: / 18:30 / 会場:"

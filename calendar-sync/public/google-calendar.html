@@ -259,8 +259,12 @@
         return new URL(value, window.location.href).toString();
       }
 
-      function googleCalendarSubscribeUrl(value) {
+      function googleCalendarSubscribeUrl(value, googleCalendarId = "") {
         const url = new URL("https://calendar.google.com/calendar/render");
+        if (googleCalendarId) {
+          url.searchParams.set("cid", googleCalendarId);
+          return url.toString();
+        }
         const subscriptionUrl = value.replace(/^https?:\/\//, "webcal://");
         url.searchParams.set("cid", subscriptionUrl);
         return url.toString();
@@ -303,8 +307,8 @@
         }
         openModal(
           "Googleカレンダーに追加とは",
-          `<p>公開されたICSのURLを、あなたのGoogleカレンダーに登録するためのボタンです。</p>
-           <p>登録後はGoogleが定期的に日程ファイルを読み取りに行くため、こちらの予定が更新されるとGoogleカレンダー側にも反映されます。</p>
+          `<p>表示中の例会日程カレンダーを、あなたのGoogleカレンダーに追加するためのボタンです。</p>
+           <p>追加後はGoogleカレンダー上で同じ日程を確認できます。日程ファイルが更新されると、Google側にも反映されます。</p>
            <p>反映は即時ではなく、数時間かかることがあります。</p>`,
         );
       }
@@ -312,8 +316,8 @@
       const publicIcs = absoluteUrl(icsUrl);
       const embedUrl = makeEmbedUrl();
       icsButton.href = icsUrl;
-      subscribeButton.href = googleCalendarSubscribeUrl(publicIcs);
-      listButton.href = "index.html?publicIcs=" + encodeURIComponent(publicIcs);
+      subscribeButton.href = googleCalendarSubscribeUrl(publicIcs, calendarId);
+      listButton.href = "index.html?publicIcs=" + encodeURIComponent(publicIcs) + (calendarId ? "&calendarId=" + encodeURIComponent(calendarId) : "");
 
       icsHelpEl.addEventListener("click", () => openHelp("ics"));
       googleHelpEl.addEventListener("click", () => openHelp("google"));

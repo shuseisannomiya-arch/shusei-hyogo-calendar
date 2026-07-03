@@ -328,21 +328,27 @@ def write_ics(events: list[dict], path: Path, calendar_name: str) -> None:
     for event in events:
         starts = datetime.fromisoformat(event["startsAt"]).astimezone(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
         ends = datetime.fromisoformat(event["endsAt"]).astimezone(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-        description = f"出典: {event['sourceUrl']}\\n抽出元: {event.get('sourceText', '')}"
-        lines.extend(
+        description = f"公式HP: {event['sourceUrl']}"
+        event_lines = [
+            "BEGIN:VEVENT",
+            f"UID:{event['id']}",
+            f"DTSTAMP:{now}",
+            f"DTSTART:{starts}",
+            f"DTEND:{ends}",
+            f"SUMMARY:{escape_ics(event['title'])}",
+        ]
+        if event.get("location"):
+            event_lines.append(f"LOCATION:{escape_ics(event['location'])}")
+        event_lines.extend(
             [
-                "BEGIN:VEVENT",
-                f"UID:{event['id']}",
-                f"DTSTAMP:{now}",
-                f"DTSTART:{starts}",
-                f"DTEND:{ends}",
-                f"SUMMARY:{escape_ics(event['title'])}",
-                f"LOCATION:{escape_ics(event.get('location', ''))}",
                 f"DESCRIPTION:{escape_ics(description)}",
                 f"URL:{event['sourceUrl']}",
+                "STATUS:CONFIRMED",
+                "TRANSP:OPAQUE",
                 "END:VEVENT",
             ]
         )
+        lines.extend(event_lines)
     lines.append("END:VCALENDAR")
     path.write_text("\r\n".join(fold_ics_line(line) for line in lines) + "\r\n", encoding="utf-8")
 

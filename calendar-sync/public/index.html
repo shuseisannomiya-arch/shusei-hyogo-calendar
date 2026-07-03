@@ -391,6 +391,7 @@
       const dataUrl = params.get("data") || dataBase + "/events.json";
       const icsUrl = params.get("ics") || dataBase + "/events.ics";
       const publicIcsUrl = params.get("publicIcs");
+      const calendarId = params.get("calendarId") || "";
       const reportEmail = params.get("reportEmail") || "info@tsuwamonogura.jp";
       const weekday = ["日", "月", "火", "水", "木", "金", "土"];
       let payload = null;
@@ -411,8 +412,12 @@
       const modalActionsEl = document.querySelector("#modalActions");
       const modalCloseEl = document.querySelector("#modalClose");
 
-      function googleCalendarSubscribeUrl(value) {
+      function googleCalendarSubscribeUrl(value, googleCalendarId = "") {
         const url = new URL("https://calendar.google.com/calendar/render");
+        if (googleCalendarId) {
+          url.searchParams.set("cid", googleCalendarId);
+          return url.toString();
+        }
         const subscriptionUrl = value.replace(/^https?:\/\//, "webcal://");
         url.searchParams.set("cid", subscriptionUrl);
         return url.toString();
@@ -420,7 +425,7 @@
 
       icsDownloadEl.href = icsUrl;
       if (publicIcsUrl) {
-        googleSubscribeEl.href = googleCalendarSubscribeUrl(publicIcsUrl);
+        googleSubscribeEl.href = googleCalendarSubscribeUrl(publicIcsUrl, calendarId);
         googleSubscribeEl.hidden = false;
         googleHelpEl.hidden = false;
       }
@@ -475,8 +480,8 @@
         }
         openModal(
           "Googleカレンダーに追加とは",
-          `<p>公開されたICSのURLを、あなたのGoogleカレンダーに登録するためのボタンです。</p>
-           <p>登録後はGoogleが定期的に日程ファイルを読み取りに行くため、こちらの予定が更新されるとGoogleカレンダー側にも反映されます。</p>
+          `<p>表示中の例会日程カレンダーを、あなたのGoogleカレンダーに追加するためのボタンです。</p>
+           <p>追加後はGoogleカレンダー上で同じ日程を確認できます。日程ファイルが更新されると、Google側にも反映されます。</p>
            <p>反映は即時ではなく、数時間かかることがあります。</p>`,
         );
       }
