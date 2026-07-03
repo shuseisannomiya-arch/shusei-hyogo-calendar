@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>守成クラブ兵庫県会場 Googleカレンダー</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #18212f;
+        --muted: #667182;
+        --line: #dce3ea;
+        --paper: #f7f8f6;
+        --surface: #ffffff;
+        --accent: #286f57;
+        --accent-dark: #1f5b47;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family:
+          "Hiragino Kaku Gothic ProN", "Yu Gothic", "YuGothic", "Noto Sans JP",
+          system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      }
+
+      .wrap {
+        width: min(1160px, 100%);
+        margin: 0 auto;
+        padding: clamp(14px, 2.8vw, 28px);
+      }
+
+      .calendar-frame {
+        display: block;
+        width: 100%;
+        min-height: 680px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--surface);
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        padding: 16px 0 0;
+      }
+
+      .action-pair {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+      }
+
+      .button {
+        display: inline-flex;
+        min-height: 42px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(24, 33, 47, 0.14);
+        border-radius: 8px;
+        padding: 9px 14px;
+        background: var(--surface);
+        color: var(--ink);
+        font-size: 0.92rem;
+        font-weight: 800;
+        text-decoration: none;
+      }
+
+      .button.primary {
+        border-color: var(--accent);
+        background: var(--accent);
+        color: white;
+      }
+
+      .button.primary:hover {
+        background: var(--accent-dark);
+      }
+
+      .help-button {
+        display: inline-grid;
+        width: 28px;
+        height: 28px;
+        place-items: center;
+        border: 1px solid rgba(24, 33, 47, 0.22);
+        border-radius: 50%;
+        background: var(--surface);
+        color: var(--ink);
+        font: inherit;
+        font-size: 0.9rem;
+        font-weight: 900;
+        cursor: pointer;
+      }
+
+      .setup {
+        display: grid;
+        gap: 10px;
+        border: 1px dashed var(--line);
+        border-radius: 8px;
+        padding: 22px;
+        background: var(--surface);
+        color: var(--muted);
+        line-height: 1.7;
+      }
+
+      .setup strong {
+        color: var(--ink);
+      }
+
+      .modal-backdrop {
+        position: fixed;
+        inset: 0;
+        z-index: 50;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        padding: 18px;
+        background: rgba(24, 33, 47, 0.48);
+      }
+
+      .modal-backdrop.is-open {
+        display: flex;
+      }
+
+      .modal {
+        width: min(560px, 100%);
+        max-height: min(720px, calc(100vh - 36px));
+        overflow: auto;
+        border-radius: 8px;
+        background: var(--surface);
+        box-shadow: 0 22px 68px rgba(24, 33, 47, 0.24);
+      }
+
+      .modal-head {
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--line);
+        padding: 16px 18px;
+      }
+
+      .modal-title {
+        margin: 0;
+        font-size: 1.08rem;
+        line-height: 1.35;
+      }
+
+      .modal-close {
+        display: inline-grid;
+        width: 34px;
+        height: 34px;
+        place-items: center;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fbfcfd;
+        color: var(--ink);
+        font: inherit;
+        font-size: 1.2rem;
+        font-weight: 900;
+        cursor: pointer;
+      }
+
+      .modal-body {
+        display: grid;
+        gap: 12px;
+        padding: 18px;
+        color: #344154;
+        font-size: 0.95rem;
+        line-height: 1.75;
+      }
+
+      .modal-body p {
+        margin: 0;
+      }
+
+      .modal-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: flex-end;
+        border-top: 1px solid var(--line);
+        padding: 14px 18px 18px;
+      }
+
+      @media (max-width: 720px) {
+        .calendar-frame {
+          min-height: 620px;
+        }
+
+        .actions {
+          justify-content: stretch;
+        }
+
+        .button {
+          flex: 1 1 180px;
+        }
+
+        .action-pair {
+          flex: 1 1 220px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <div id="calendarMount"></div>
+      <nav class="actions" aria-label="カレンダー操作">
+        <span class="action-pair">
+          <a class="button primary" id="subscribeButton" href="#" target="_blank" rel="noopener">Googleカレンダーに追加</a>
+          <button class="help-button" id="googleHelp" type="button" aria-label="Googleカレンダーに追加の説明">?</button>
+        </span>
+        <span class="action-pair">
+          <a class="button" id="icsButton" href="#" download>ICSダウンロード</a>
+          <button class="help-button" id="icsHelp" type="button" aria-label="ICSダウンロードの説明">?</button>
+        </span>
+        <a class="button" id="listButton" href="index.html">一覧で見る</a>
+      </nav>
+    </main>
+
+    <div class="modal-backdrop" id="modalBackdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal">
+        <div class="modal-head">
+          <h2 class="modal-title" id="modalTitle"></h2>
+          <button class="modal-close" id="modalClose" type="button" aria-label="閉じる">×</button>
+        </div>
+        <div class="modal-body" id="modalBody"></div>
+        <div class="modal-actions" id="modalActions"></div>
+      </div>
+    </div>
+
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const isPublicPath = window.location.pathname.includes("/public/");
+      const dataBase = isPublicPath ? "../data" : "data";
+      const icsUrl = params.get("publicIcs") || params.get("ics") || dataBase + "/events.ics";
+      const calendarId = params.get("calendarId");
+      const googleEmbed = params.get("googleEmbed");
+      const mount = document.querySelector("#calendarMount");
+      const subscribeButton = document.querySelector("#subscribeButton");
+      const icsButton = document.querySelector("#icsButton");
+      const listButton = document.querySelector("#listButton");
+      const googleHelpEl = document.querySelector("#googleHelp");
+      const icsHelpEl = document.querySelector("#icsHelp");
+      const modalBackdropEl = document.querySelector("#modalBackdrop");
+      const modalTitleEl = document.querySelector("#modalTitle");
+      const modalBodyEl = document.querySelector("#modalBody");
+      const modalActionsEl = document.querySelector("#modalActions");
+      const modalCloseEl = document.querySelector("#modalClose");
+
+      function absoluteUrl(value) {
+        return new URL(value, window.location.href).toString();
+      }
+
+      function makeEmbedUrl() {
+        if (googleEmbed) return googleEmbed;
+        if (!calendarId) return "";
+        const url = new URL("https://calendar.google.com/calendar/embed");
+        url.searchParams.set("src", calendarId);
+        url.searchParams.set("ctz", "Asia/Tokyo");
+        url.searchParams.set("mode", "AGENDA");
+        url.searchParams.set("showTitle", "0");
+        url.searchParams.set("showPrint", "0");
+        url.searchParams.set("showCalendars", "0");
+        return url.toString();
+      }
+
+
+      function openModal(title, bodyHtml) {
+        modalTitleEl.textContent = title;
+        modalBodyEl.innerHTML = bodyHtml;
+        modalActionsEl.innerHTML = `<button class="button primary" type="button" data-close-modal>閉じる</button>`;
+        modalBackdropEl.classList.add("is-open");
+      }
+
+      function closeModal() {
+        modalBackdropEl.classList.remove("is-open");
+      }
+
+      function openHelp(type) {
+        if (type === "ics") {
+          openModal(
+            "ICSダウンロードとは",
+            `<p>ICSは、カレンダー予定を受け渡しするためのファイル形式です。</p>
+             <p>このボタンでは、現在表示している例会日程をファイルとしてダウンロードできます。Appleカレンダー、Outlook、Googleカレンダーへの手動取り込みなどに使えます。</p>
+             <p>ダウンロードしたファイルは、その時点の予定です。あとから日程が更新されても、手元のファイルは自動では変わりません。</p>`,
+          );
+          return;
+        }
+        openModal(
+          "Googleカレンダーに追加とは",
+          `<p>公開されたICSのURLを、あなたのGoogleカレンダーに登録するためのボタンです。</p>
+           <p>登録後はGoogleが定期的に日程ファイルを読み取りに行くため、こちらの予定が更新されるとGoogleカレンダー側にも反映されます。</p>
+           <p>反映は即時ではなく、数時間かかることがあります。ローカル確認用の127.0.0.1のURLは本番登録には使えません。</p>`,
+        );
+      }
+
+      const publicIcs = absoluteUrl(icsUrl);
+      const embedUrl = makeEmbedUrl();
+      icsButton.href = icsUrl;
+      subscribeButton.href = "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(publicIcs);
+      listButton.href = "index.html?publicIcs=" + encodeURIComponent(publicIcs);
+
+      icsHelpEl.addEventListener("click", () => openHelp("ics"));
+      googleHelpEl.addEventListener("click", () => openHelp("google"));
+      modalCloseEl.addEventListener("click", closeModal);
+      modalBackdropEl.addEventListener("click", (event) => {
+        if (event.target === modalBackdropEl || event.target.closest("[data-close-modal]")) closeModal();
+      });
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") closeModal();
+      });
+
+      if (embedUrl) {
+        mount.innerHTML = `<iframe class="calendar-frame" src="${embedUrl}" title="守成クラブ兵庫県会場 Googleカレンダー"></iframe>`;
+      } else {
+        mount.innerHTML = `
+          <section class="setup">
+            <strong>Googleカレンダーの埋め込みURL、またはカレンダーIDを指定してください。</strong>
+            <span>例: google-calendar.html?calendarId=xxxx%40group.calendar.google.com&publicIcs=${encodeURIComponent(publicIcs)}</span>
+            <span>先に下の「Googleカレンダーに追加」からICSを登録し、Googleカレンダー側で公開設定と埋め込みURLの取得を行います。</span>
+          </section>
+        `;
+      }
+    </script>
+  </body>
+</html>

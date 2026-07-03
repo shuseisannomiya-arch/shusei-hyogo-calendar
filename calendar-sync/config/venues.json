@@ -1,0 +1,196 @@
+{
+  "timezone": "Asia/Tokyo",
+  "calendarName": "守成クラブ兵庫県・近隣会場 例会日程",
+  "lastCheckedSource": "ユーザー指定の25会場リストと各会場公式サイトを確認して登録",
+  "venues": [
+    {
+      "name": "神戸会場",
+      "area": "神戸",
+      "url": "http://banban-kobe.com/",
+      "defaultStart": "18:00",
+      "defaultEnd": "21:00"
+    },
+    {
+      "name": "みなと神戸会場",
+      "area": "神戸",
+      "url": "https://www.minatokobe-shusei.club/",
+      "defaultStart": "18:00",
+      "defaultEnd": "21:00"
+    },
+    {
+      "name": "姫路会場",
+      "area": "播磨",
+      "url": "https://himeji-shusei.club/",
+      "defaultStart": "18:00",
+      "defaultEnd": "21:00"
+    },
+    {
+      "name": "三宮会場",
+      "area": "神戸",
+      "url": "https://sannomiya-shusei.club/",
+      "defaultStart": "18:00",
+      "defaultEnd": "21:00"
+    },
+    {
+      "name": "芦屋会場",
+      "area": "阪神間",
+      "url": "https://ashiya-shusei.club/",
+      "defaultStart": "18:00",
+      "defaultEnd": "21:00"
+    },
+    {
+      "name": "阪神尼崎会場",
+      "area": "阪神間",
+      "url": "https://hanshin-ama-shusei.club/",
+      "defaultStart": "18:00",
+      "defaultEnd": "21:00"
+    },
+    {
+      "name": "明石会場",
+      "area": "播磨",
+      "url": "https://akashi-shusei.club/",
+      "defaultStart": "18:00",
+      "defaultEnd": "21:00"
+    },
+    {
+      "name": "昼ノみなと神戸会場",
+      "area": "神戸",
+      "url": "https://hiruno-minatokobe.club/",
+      "defaultStart": "11:30",
+      "defaultEnd": "14:30"
+    },
+    {
+      "name": "淡路島会場",
+      "area": "淡路",
+      "url": "https://www.awaji-ganbare.com/",
+      "defaultStart": "18:00",
+      "defaultEnd": "21:00"
+    },
+    {
+      "name": "姫路白鷺会場",
+      "area": "播磨",
+      "url": "https://himeji-shirasagi-shusei.club/",
+      "defaultStart": "11:30",
+      "defaultEnd": "14:30"
+    },
+    {
+      "name": "神戸オリエンタル会場",
+      "area": "神戸",
+      "url": "https://kobe-oriental-shusei.club/",
+      "defaultStart": "18:00",
+      "defaultEnd": "21:00"
+    },
+    {
+      "name": "兵庫加古川会場",
+      "area": "播磨",
+      "url": "https://kakogawa-shusei.club/",
+      "defaultStart": "11:30",
+      "defaultEnd": "14:30"
+    },
+    {
+      "name": "神戸三田会場",
+      "area": "神戸",
+      "url": "https://kobesanda-syusei.club/",
+      "defaultStart": "13:00",
+      "defaultEnd": "16:00"
+    },
+    {
+      "name": "神戸西会場",
+      "area": "神戸",
+      "url": "https://shusei-kobenishi.jp/",
+      "defaultStart": "18:00",
+      "defaultEnd": "21:00"
+    },
+    {
+      "name": "ヒルノ芦屋会場",
+      "area": "阪神間",
+      "url": "https://hirunoashiya-shusei.club/",
+      "defaultStart": "11:00",
+      "defaultEnd": "14:00"
+    },
+    {
+      "name": "伊丹会場",
+      "area": "阪神間",
+      "url": "https://shusei-itami.club/",
+      "defaultStart": "18:00",
+      "defaultEnd": "21:00"
+    },
+    {
+      "name": "神戸垂水会場",
+      "area": "神戸",
+      "url": "https://kobetarumi-shusei.com/",
+      "defaultStart": "14:00",
+      "defaultEnd": "16:30"
+    },
+    {
+      "name": "神戸ベイサイド会場",
+      "area": "神戸",
+      "url": "https://kobe-bayside-shusei.club/",
+      "defaultStart": "18:00",
+      "defaultEnd": "21:00"
+    },
+    {
+      "name": "ヒルノ西宮えびす会場",
+      "area": "阪神間",
+      "url": "https://hiru-nishinomiyaebisu-shusei.club/",
+      "defaultStart": "11:00",
+      "defaultEnd": "14:00"
+    },
+    {
+      "name": "昼の明石会場",
+      "area": "播磨",
+      "url": "https://hirunoakashi-shusei.club/",
+      "defaultStart": "12:30",
+      "defaultEnd": "15:30"
+    },
+    {
+      "name": "川西池田会場",
+      "area": "阪神間",
+      "url": "https://kawanishi-ikeda-shusei.club/",
+      "defaultStart": "18:00",
+      "defaultEnd": "21:00"
+    },
+    {
+      "name": "ヒルノ神戸ベイサイド会場",
+      "area": "神戸",
+      "url": "https://kobe-bayside-afternoon-shusei.club/",
+      "defaultStart": "13:00",
+      "defaultEnd": "16:00"
+    },
+    {
+      "name": "あさの明石会場",
+      "area": "播磨",
+      "url": "https://asanoakashi-shusei.club/",
+      "defaultStart": "10:00",
+      "defaultEnd": "12:00"
+    },
+    {
+      "name": "はりま加古川会場",
+      "area": "播磨",
+      "url": "https://harimakakogawa-shusei.club/",
+      "defaultStart": "18:00",
+      "defaultEnd": "21:00"
+    },
+    {
+      "name": "ヒルノ三宮会場",
+      "area": "神戸",
+      "url": "https://hirunosannomiya-shusei.club/",
+      "defaultStart": "11:30",
+      "defaultEnd": "14:30"
+    },
+    {
+      "name": "ヒルノ大阪豊中会場",
+      "area": "大阪",
+      "url": "https://hot-shusei.com/",
+      "defaultStart": "14:30",
+      "defaultEnd": "17:30"
+    },
+    {
+      "name": "宝塚会場",
+      "area": "阪神間",
+      "url": "https://shusei-takarazuka.com/",
+      "defaultStart": "11:00",
+      "defaultEnd": "14:00"
+    }
+  ]
+}

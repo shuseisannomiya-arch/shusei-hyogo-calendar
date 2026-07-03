@@ -1,0 +1,1558 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Shusei Hyogo Calendar//JP
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:守成クラブ兵庫県・近隣会場 例会日程
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:a2f9eece9e877e93a9135e36ee4f82a1a5cf0e38@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260701T010000Z
+DTEND:20260701T030000Z
+SUMMARY:守成クラブあさの明石会場 例会
+LOCATION:
+DESCRIPTION:出典: https://asanoakashi-shusei.club/\\n抽出元: 他会場
+ 所属 / 参加申込フォーム / 開催概要 / 日程 / 2026年7月1
+ 日（水） / 開催 / 時間:10:00〜12:00（受付9:00〜） / 大名
+ 刺交換会がありますので、9:45までに受付を済ませてお
+ いてください。
+URL:https://asanoakashi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:9c606d240093ac3ccbddc4412e13fdc9cbaf2d66@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260701T090000Z
+DTEND:20260701T120000Z
+SUMMARY:守成クラブ神戸オリエンタル会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kobe-oriental-shusei.club/\\n抽出元: 参加
+ 申込フォーム / 商談報告フォーム / 第66回例会のお知ら
+ せ / 日程 / 2026年7月1日（水） / 開催 / 例会:18:00〜21:00(
+ 受付17:15〜) ※ゲストと紹介者は17:30集合 / 概要
+URL:https://kobe-oriental-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:45a842a0c60dea8f5cab64bb0fc7c309570cff73@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260702T023000Z
+DTEND:20260702T053000Z
+SUMMARY:守成クラブ昼ノみなと神戸会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hiruno-minatokobe.club/\\n抽出元: 参加費:
+ 2\,000円 / 内容:飲み放題（アルコールあり）、軽食 / 参
+ 加:自由参加 / 第71回 / 2026年7月2日（木） / 第72回 / 2026
+ 年8月6日（木） / 第73回
+URL:https://hiruno-minatokobe.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:0c04ee35c61efb7c80721f1fe1b614e344e3493b@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260702T053000Z
+DTEND:20260702T083000Z
+SUMMARY:守成クラブヒルノ大阪豊中会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hot-shusei.com/\\n抽出元: More >> / 最新
+ の例会のご案内 / 第2回守成クラブヒルノ大阪豊中例会 
+ / 開催日: / 2026年07月02日（木） / 時 間: / ■例会:14:30～1
+ 7:30 / ■受付:13:30～
+URL:https://hot-shusei.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:6a54d7a24602fc1d6a0c1c452f8d3f584d8ac60d@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260706T040000Z
+DTEND:20260706T070000Z
+SUMMARY:守成クラブヒルノ神戸ベイサイド会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kobe-bayside-afternoon-shusei.club/\\n抽出元
+ : 関西他会場リンク / 正会員は全国どこの会場へも参加
+ できます / 第16回例会のお知らせ / 日程 / 2026年7月6日（
+ 月） / 開催 / 例会:13:00〜16:00（受付:12:00～） / 概要
+URL:https://kobe-bayside-afternoon-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:38231491a379e94027cdc651fe811c81e81b1c66@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260706T090000Z
+DTEND:20260706T120000Z
+SUMMARY:守成クラブ神戸ベイサイド会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kobe-bayside-shusei.club/\\n抽出元: 関西
+ 他会場リンク / 正会員は全国どこの会場へも参加でき
+ ます / 第32回例会のお知らせ / 日程 / 2026年7月6日（月）
+  / 開催 / 16:30:ベイサイドワンダーランドSTART / 17:15:大名
+ 刺交換BR/ブース商談/フレッシュ車座
+URL:https://kobe-bayside-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:ac2432acaee8e17b0ad54dde18c3ce2ec3bce0a3@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260706T090000Z
+DTEND:20260706T120000Z
+SUMMARY:守成クラブ芦屋会場 例会
+LOCATION:
+DESCRIPTION:出典: https://ashiya-shusei.club/\\n抽出元: 他会場所
+ 属 / 参加申込フォーム / 例会のご案内 / 日程 / 2026年7月
+ 6日（月) / ※申込締切は7月1日（水）12時(正午) / 開催時
+ 間 / 18:00〜21:00（受付17:15〜）
+URL:https://ashiya-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:be96364dbab8e3144198dec71750628bc5ac1c06@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260708T023000Z
+DTEND:20260708T053000Z
+SUMMARY:守成クラブ姫路白鷺会場 例会
+LOCATION:
+DESCRIPTION:出典: https://himeji-shirasagi-shusei.club/\\n抽出元: 他
+ 会場所属 / 参加申込フォーム / 第70回例会のお知らせ / 
+ 日程 / 2026年7月8日（水） / （締切:2026年7月1日(水)23時59
+ 分） / 開催 / 例会:11:30〜14:30(受付11:00〜) ※ゲストと紹
+ 介者は10:45 集合
+URL:https://himeji-shirasagi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:f10deb7305838474058fd7ced80db275774dc3dd@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260708T090000Z
+DTEND:20260708T120000Z
+SUMMARY:守成クラブ伊丹会場 例会
+LOCATION:
+DESCRIPTION:出典: https://shusei-itami.club/\\n抽出元: 伊丹会場 / 
+ 第44回例会開催日 2026.7.8 / WED / 守成クラブ伊丹会場のホ
+ ームページにようこそ！！伊丹会場は毎月第二水曜日
+ が例会開催日です(^^)/ / 第44回 例会開催日は、2026年7月8
+ 日（水）18～21時 / 新年最初の例会は、白雪ブルワリー
+ レストラン 長寿蔵1階 定員120人での開催です！！ / 皆
+ 様にお会いできるのを世話人一同お待ちしております
+ ！！ / 伊丹会員 出欠連絡
+URL:https://shusei-itami.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:2c680f465e714ee5fb638739da7f72c9a9c54dc5@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260709T090000Z
+DTEND:20260709T120000Z
+SUMMARY:守成クラブ神戸会場 例会
+LOCATION:エスタシオン・デ・神戸
+DESCRIPTION:出典: http://banban-kobe.com/\\n抽出元: 例会参加申込
+ フォーム / 商談報告フォーム / 会場MAP / 日程 / 2026年7月
+ 9日（木） / 開催 / 時間:18:00～ / (ゲストオリエンテーシ
+ ョン17:15～/受付開始17:00～)
+URL:http://banban-kobe.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:2b9ceca9e580c3750f6fb803341529193de4fa07@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260710T090000Z
+DTEND:20260710T120000Z
+SUMMARY:守成クラブ川西池田会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kawanishi-ikeda-shusei.club/\\n抽出元: 6月4
+ 日(木)｜23:59まで / 6月4日(木)｜23:59まで / アステホール 
+ / 第20回 / 2026年7月10日(金) / 7月2日(木)｜23:59まで / 7月2
+ 日(木)｜23:59まで / 不死王閣
+URL:https://kawanishi-ikeda-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:63a4de8a38e701f7f2d7b5dd9aad4751952b95ce@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260710T090000Z
+DTEND:20260710T120000Z
+SUMMARY:守成クラブ淡路島会場 例会
+LOCATION:
+DESCRIPTION:出典: https://www.awaji-ganbare.com/\\n抽出元: 淡路島
+ 会員一覧 / 例会のご案内 / 2026年7月 第64回例会 / 日 程 /
+  2026/07/10(金) 18:30 （受付開始） / 申 込 期 限 / 2026/07/03(
+ 金) / ※期限が切れてからのお申し込みはご遠慮くださ
+ い
+URL:https://www.awaji-ganbare.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:c0a72bb011e509e045f3783f2b1d8c11938053de@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260713T050000Z
+DTEND:20260713T073000Z
+SUMMARY:守成クラブ神戸垂水会場 例会
+LOCATION:HOTEL SETRE（ホテルセトレ神戸・舞子）HPは
+DESCRIPTION:出典: https://kobetarumi-shusei.com/\\n抽出元: HOTEL SETRE
+ （ホテルセトレ神戸・舞子）HPは / こちら / 〒655-0036 兵
+ 庫県神戸市垂水区海岸通11−1 / 開催予定 / 第39回 7月13
+ 日（月） / © −2026 / 守成クラブ神戸垂水会場 / HOME
+URL:https://kobetarumi-shusei.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:40291732f29ab03533e0e0d82d6bc17688b35834@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260713T090000Z
+DTEND:20260713T120000Z
+SUMMARY:守成クラブ三宮会場 例会
+LOCATION:
+DESCRIPTION:出典: https://sannomiya-shusei.club/\\n抽出元: かけが
+ えのない会社を潰してはならない。 / 第106回 / 三宮会
+ 場例会のご案内 / 日程 / 2026年7月13日（月） / ※受付締
+ 切は7月8日（水）13:00迄 / 開催時間 / 18:00〜21:00（受付17:
+ 15〜）
+URL:https://sannomiya-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:9eecb81a515693236c57c0f9de53d9c4cc75cd73@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260714T020000Z
+DTEND:20260714T050000Z
+SUMMARY:守成クラブヒルノ芦屋会場 例会
+LOCATION:芦屋モノリス
+DESCRIPTION:出典: https://hirunoashiya-shusei.club/\\n抽出元: 例会
+ のお知らせ / ◎芦屋モノリスの駐車場の駐車場には限
+ りがあります。満車の場合は無理に駐車せず近隣のコ
+ インパーキング等をご利用ください。 / 公共交通機関
+ をご利用いただきますよう、ご協力の程宜しくお願い
+ 致します。 / 日程 / 2026年7月14日（火） / 開催 / 時間: 11
+ :00〜14:00 / （受付開始 10:00〜/ブースの販売 10:00〜/ゲス
+ トオリエンテーション開始10:10〜）
+URL:https://hirunoashiya-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:5ee0b50c143ff70e6d999de7eb4dd31213f67653@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260715T023000Z
+DTEND:20260715T053000Z
+SUMMARY:守成クラブ兵庫加古川会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kakogawa-shusei.club/\\n抽出元: ・電車、
+ バスでお越しの方はシャトルバスがございますので、
+ ご利用ください。 / JR加古川駅北側ロータリー(赤いバ
+ スが目印です) / 10時30分出発(時間厳守) / 第64回 / 7月15
+ 日（水） / 第65回 / 8月19日（水） / 第66回
+URL:https://kakogawa-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:9cf5002d0e8ff037df68114c0b283c02da063008@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260715T090000Z
+DTEND:20260715T113000Z
+SUMMARY:守成クラブはりま加古川会場 例会
+LOCATION:
+DESCRIPTION:出典: https://harimakakogawa-shusei.club/\\n抽出元: 他会
+ 場所属 / 参加申込フォーム / 開催概要 / 日程 / 2026年7月
+ 15日（水） / 開催 / 時間:18:00〜20:30（受付17:00〜）※ゲ
+ ストと紹介者は17:00までに集合 / 概要
+URL:https://harimakakogawa-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:b89d1e49d38e87789830e4fa508dcb2d2bd435ad@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260717T020000Z
+DTEND:20260717T050000Z
+SUMMARY:守成クラブヒルノ西宮えびす会場 例会
+LOCATION:西宮神社会館
+DESCRIPTION:出典: https://hiru-nishinomiyaebisu-shusei.club/\\n抽出元:
+  ください。 / マイページはこちら / 例会のお知らせ / 
+ 日程 / 2026年7月17日（金） / 開催 / 時間: 11:00〜14:00（受
+ 付開始10:00〜） / 会場
+URL:https://hiru-nishinomiyaebisu-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:61a58743cc51fb1add7272f3135892d4f4f44655@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260721T090000Z
+DTEND:20260721T120000Z
+SUMMARY:守成クラブ神戸西会場 例会
+LOCATION:
+DESCRIPTION:出典: https://shusei-kobenishi.jp/\\n抽出元: 他会場所
+ 属 / 参加申込フォーム / 第59回例会のお知らせ / 日程 / 
+ 2026年7月21日（火） / 開催 / 開会時刻:18:00（受付:17:30～
+ ） / ※ゲストと紹介者の方は17:15にお越しください。17:
+ 30からオリエンテーションがはじまります。
+URL:https://shusei-kobenishi.jp/
+END:VEVENT
+BEGIN:VEVENT
+UID:c6564b5d2a86feb56c731895aea2b364230e5afd@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260722T023000Z
+DTEND:20260722T053000Z
+SUMMARY:守成クラブヒルノ三宮会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hirunosannomiya-shusei.club/\\n抽出元: か
+ けがえのない会社を潰してはならない。 / 第4回 / ヒル
+ ノ三宮会場例会のご案内 / 日程 / 2026年07月22日(水) / ※
+ 受付締切は07月15日(水) 23:59迄 / 開催時間 / 11:30〜14:30（
+ 受付10:30〜）
+URL:https://hirunosannomiya-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:3ff54a8f041dd1ade52ac65035994fd7222dac2d@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260727T020000Z
+DTEND:20260727T050000Z
+SUMMARY:守成クラブ宝塚会場 例会
+LOCATION:
+DESCRIPTION:出典: https://shusei-takarazuka.com/\\n抽出元: More >> / 
+ 最新の例会のご案内 / 第2回 守成クラブ宝塚会場 7月例
+ 会 / 開催日: / 2026年07月27日（月） / 時 間: / ◾️例会:11
+ :00～14:00 / ◾️受付:10:00～
+URL:https://shusei-takarazuka.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:d2dafe45037ee45b246dd2e1843eecae53b22e71@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260727T090000Z
+DTEND:20260727T120000Z
+SUMMARY:守成クラブ明石会場 例会
+LOCATION:
+DESCRIPTION:出典: https://akashi-shusei.club/\\n抽出元: 他会場所
+ 属 / 参加申込フォーム / 第74回例会のお知らせ / 日程 / 
+ 2026年7月27日（月）（第4月曜日） / 開催 / 時間:18:00〜（
+ 受付17:00〜）※ゲストと紹介者は17:30までに集合 / 概要
+URL:https://akashi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:57cef3a73e9f560ebac3e3b990b711b860c0aefc@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260728T040000Z
+DTEND:20260728T070000Z
+SUMMARY:守成クラブ神戸三田会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kobesanda-syusei.club/\\n抽出元: 他会場
+ 所属 / 参加申込フォーム / 第64回例会のお知らせ / 日程
+  / 2026年7月28日（火） / 開催 / 例会:13:00〜16:00(受付12:15
+ 〜) / ※ゲストと紹介者は12:00までにお越しください。
+URL:https://kobesanda-syusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:fb8f79ccac9415eb899966ea44d7db2fd5460e67@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260728T090000Z
+DTEND:20260728T120000Z
+SUMMARY:守成クラブ姫路会場 例会
+LOCATION:
+DESCRIPTION:出典: https://himeji-shusei.club/\\n抽出元: 参加申込
+ フォーム / 商談報告はこちらから / 第119回例会のお知
+ らせ / 日程 / 2026年7月28日（火） / 開催 / 時間:18:00〜（
+ 受付17:30〜）※ゲストと紹介者は17:10までに集合 / 概要
+URL:https://himeji-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:8be8903576d85f5b8145af8d6ec381f55606e29e@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260803T090000Z
+DTEND:20260803T120000Z
+SUMMARY:守成クラブ芦屋会場 例会
+LOCATION:
+DESCRIPTION:出典: https://ashiya-shusei.club/\\n抽出元: 注意事項 /
+  ・出欠報告は、必ずしてください。 / ・出席申込後、
+ 欠席に変更する場合、申し込みをされたご本人が改め
+ て 「欠席申請」し直してください。 / 第102回 / 8月3日
+ （月）※第1月曜日 / 第103回 / 9月14日（月）※第2月曜日
+  / 守成クラブとは
+URL:https://ashiya-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:ed90c3d7d409348e827a053bfb5d3b1384e2fbac@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260804T020000Z
+DTEND:20260804T050000Z
+SUMMARY:守成クラブヒルノ芦屋会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hirunoashiya-shusei.club/\\n抽出元: ▶抽
+ 選に外れた場合は、当選するまで申請していただいて
+ 構いません。 / プロフィールシートのダウンロードは
+ こちら（エクセル） / アクセスマップ / 今後のスケジ
+ ュール / 第46回 2026年8月4日(火) 芦屋モノリス / ※8月は
+ 開催日が異なります、ご注意ください / 第50回 2026年12
+ 月8日(火) 芦屋モノリス / 第47回 2026年9月8日(火) 芦屋モ
+ ノリス
+URL:https://hirunoashiya-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:e1aa563b83375ffc4c81b8c0faa1ca4a052a722b@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260805T090000Z
+DTEND:20260805T120000Z
+SUMMARY:守成クラブ伊丹会場 例会
+LOCATION:
+DESCRIPTION:出典: https://shusei-itami.club/\\n抽出元: 伊丹空港南
+ ターミナル⑦番バス乗り場から阪急バス乗車 / ①阪急
+ 伊丹駅まで約20分→阪急伊丹駅から徒歩5分 / ②JR伊丹駅
+ まで約30分→JR伊丹駅から徒歩5分 / 第45回 / 8月5日（水
+ ） / 第46回 / 9月9日（水） / 第47回
+URL:https://shusei-itami.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:7763056f0d84d7d9cb1766af5fdd4e7e92b86935@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260805T090000Z
+DTEND:20260805T120000Z
+SUMMARY:守成クラブ神戸オリエンタル会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kobe-oriental-shusei.club/\\n抽出元: THE ORI
+ ENT(ジ オリエント) HPは / こちら / 〒650-0034 兵庫県神戸
+ 市中央区京町25 / 第67回 / 8月5日（水） / 第68回 / 9月2日
+ （水） / 第69回
+URL:https://kobe-oriental-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:9e1cf407ccdc5d2daf286034f921122092ca74a0@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260806T023000Z
+DTEND:20260806T053000Z
+SUMMARY:守成クラブ昼ノみなと神戸会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hiruno-minatokobe.club/\\n抽出元: 参加:自
+ 由参加 / 第71回 / 2026年7月2日（木） / 第72回 / 2026年8月6
+ 日（木） / 第73回 / 2026年9月3日（木） / 第74回
+URL:https://hiruno-minatokobe.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:afb359d48231655a54a05915583229e6b569e84a@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260806T090000Z
+DTEND:20260806T120000Z
+SUMMARY:守成クラブ神戸会場 例会
+LOCATION:
+DESCRIPTION:出典: http://banban-kobe.com/\\n抽出元: 7月9日（木） 
+ / 第 / 243 / 回 / 8月6日（木） / 第 / 244 / 回
+URL:http://banban-kobe.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:ab604cca7d42255566c0030b90199333aa8d36a6@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260810T090000Z
+DTEND:20260810T120000Z
+SUMMARY:守成クラブ三宮会場 例会
+LOCATION:
+DESCRIPTION:出典: https://sannomiya-shusei.club/\\n抽出元: - / 第107
+ 回 / 7月13日(月) / 第108回 / 8月10日(月) / 第109回 / 9月14日(
+ 月) / 第110回
+URL:https://sannomiya-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:192e77016ea1ddf4869779269904535128af6c91@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260811T090000Z
+DTEND:20260811T120000Z
+SUMMARY:守成クラブ淡路島会場 例会
+LOCATION:淡路島観光ホテル
+DESCRIPTION:出典: https://www.awaji-ganbare.com/\\n抽出元: こちら
+ をご覧ください > / 例会の予定告知 / 2026年8月 第65回例
+ 会 / 日程: / 2026/08/11(火) / 時間: / 18:30 / 会場:
+URL:https://www.awaji-ganbare.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:a479c79829dc6ca9bb91a507d4f7da82df7fcfbc@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260812T023000Z
+DTEND:20260812T053000Z
+SUMMARY:守成クラブ姫路白鷺会場 例会
+LOCATION:
+DESCRIPTION:出典: https://himeji-shirasagi-shusei.club/\\n抽出元: ・
+ 大名刺交換会を予定しておりますので、各自名刺を150
+ 枚以上持参してください。 / 第70回 / 7月8日（水） / 第7
+ 1回 / 8月12日（水） / 第72回 / 9月9日（水） / 第73回
+URL:https://himeji-shirasagi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:c282c6b5f34a700d604704e4e726d584f8275297@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260814T090000Z
+DTEND:20260814T120000Z
+SUMMARY:守成クラブ川西池田会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kawanishi-ikeda-shusei.club/\\n抽出元: 7月2
+ 日(木)｜23:59まで / 7月2日(木)｜23:59まで / 不死王閣 / 第2
+ 1回 / 2026年8月14日(金) / 8月6日(木)｜23:59まで / 8月6日(木)
+ ｜23:59まで / アステホール
+URL:https://kawanishi-ikeda-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:f720458f6669a7e7d14e4b21798d2e5c29465a91@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260817T090000Z
+DTEND:20260817T120000Z
+SUMMARY:守成クラブ明石会場 例会
+LOCATION:
+DESCRIPTION:出典: https://akashi-shusei.club/\\n抽出元: 第74回 / 7
+ 月27日（月） / ※第4月 / 第75回 / 8月17日（月） / 第76回 
+ / 9月28日（月） / ※第4月
+URL:https://akashi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:a5eb35ef407bcec3e3adbd3fc21954d82aa21081@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260818T090000Z
+DTEND:20260818T120000Z
+SUMMARY:守成クラブ神戸西会場 例会
+LOCATION:
+DESCRIPTION:出典: https://shusei-kobenishi.jp/\\n抽出元: 駐車場3時
+ 間無料 / 第59回 / 7月21日（火） / 第60回 / 8月18日（火） 
+ / 第61回 / 9月15日（火） / 第62回
+URL:https://shusei-kobenishi.jp/
+END:VEVENT
+BEGIN:VEVENT
+UID:a8bf18d05bbc8761b9e826f9d2840066568dab9e@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260819T023000Z
+DTEND:20260819T053000Z
+SUMMARY:守成クラブ兵庫加古川会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kakogawa-shusei.club/\\n抽出元: 10時30分
+ 出発(時間厳守) / 第64回 / 7月15日（水） / 第65回 / 8月19
+ 日（水） / 第66回 / 9月16日（水） / 第67回
+URL:https://kakogawa-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:2f9ee884b6798dbeb80ec9340940da4fc15c8c57@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260820T090000Z
+DTEND:20260820T120000Z
+SUMMARY:守成クラブみなと神戸会場 例会
+LOCATION:
+DESCRIPTION:出典: https://www.minatokobe-shusei.club/\\n抽出元: ※守
+ 成クラブ初めての⽅はゲスト参加になります。すでに
+ 守成クラブ会員である⼈のご紹介者が必要です。 / お
+ 問い合わせフォーム / 次回以降の例会案内 / 198回 / 2026
+ 年8月20日(木) / 199回 / 2026年9月17日(木) / 200回
+URL:https://www.minatokobe-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:41497cba86f472452f25685fe19fe28f2159246d@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260821T020000Z
+DTEND:20260821T050000Z
+SUMMARY:守成クラブヒルノ西宮えびす会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hiru-nishinomiyaebisu-shusei.club/\\n抽出元:
+  車座用自己紹介カードのダウンロードはこちらから（P
+ DF） / 車座用自己紹介カードのダウンロードはこちらか
+ ら（パワーポイント） / アクセスマップ / 今後のスケ
+ ジュール / 第30回 8月21日（金） 福寿の間 / 第33回 11月13
+ 日（金） 福寿の間 / 第31回 9月18日（金） 福寿の間 / 第
+ 34回 12月18日（金） 福寿の間
+URL:https://hiru-nishinomiyaebisu-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:f1bd9fb1384fda9b8292b2e1443b287109d9c937@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260824T020000Z
+DTEND:20260824T050000Z
+SUMMARY:守成クラブ宝塚会場 例会
+LOCATION:宝塚ホテル
+DESCRIPTION:出典: https://shusei-takarazuka.com/\\n抽出元: 7月19日(
+ 日)｜23:59まで / 7月19日(日)｜23:59まで / 宝塚ホテル / 第3
+ 回 / 2026年8月24日(月) / 8月16日(日)｜23:59まで / 8月16日(日
+ )｜23:59まで / 宝塚ホテル
+URL:https://shusei-takarazuka.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:04ea737211c4b1059d3a6cf3a575e5c2fc2ec40b@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260825T040000Z
+DTEND:20260825T070000Z
+SUMMARY:守成クラブ神戸三田会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kobesanda-syusei.club/\\n抽出元: 駐車場:
+ 第一駐車場 2時間30分、第二駐車場 3時間30分の無料サー
+ ビス券 / 第64回 / 7月28日（火） / 第65回 / 8月25日（火） 
+ / 第66回 / 9月29日（火） / 第67回
+URL:https://kobesanda-syusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:a227de8bcb668fad491878a1a31ea7f494f4aa59@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260826T023000Z
+DTEND:20260826T053000Z
+SUMMARY:守成クラブヒルノ三宮会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hirunosannomiya-shusei.club/\\n抽出元: ・
+ 例会の定員上限を設けている中で、自会場の皆様の出
+ 席を優先させていただくために、お友達会場の皆様の
+ 参加を一定数にて締め切らせていただきます。 / ・例
+ 会開催日3週間前のお申し出で、アレルギー食の対応が
+ 可能です。それ以降は、対応いたしかねますので、ご
+ 了承くださいませ。 / ﻿ / 第5回 5F / 8月26日(水) / 第6回 
+ 6F / 9月30日(水) / 第7回 6F
+URL:https://hirunosannomiya-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:66d140a62b9f6401cb10bc46cfc9e8f3a34331d3@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260902T090000Z
+DTEND:20260902T120000Z
+SUMMARY:守成クラブ神戸オリエンタル会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kobe-oriental-shusei.club/\\n抽出元: 〒650-
+ 0034 兵庫県神戸市中央区京町25 / 第67回 / 8月5日（水） / 
+ 第68回 / 9月2日（水） / 第69回 / 10月1日（木） / 事務局
+ からのお知らせ
+URL:https://kobe-oriental-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:dcecf58a314fd2bcd07067bc855888455b9550a7@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260903T023000Z
+DTEND:20260903T053000Z
+SUMMARY:守成クラブ昼ノみなと神戸会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hiruno-minatokobe.club/\\n抽出元: 2026年7
+ 月2日（木） / 第72回 / 2026年8月6日（木） / 第73回 / 2026
+ 年9月3日（木） / 第74回 / 2026年10月1日（木） / 第75回
+URL:https://hiruno-minatokobe.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:b2be14d34847e3470d14acb77e0ae2aba14fbb91@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260908T020000Z
+DTEND:20260908T050000Z
+SUMMARY:守成クラブヒルノ芦屋会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hirunoashiya-shusei.club/\\n抽出元: 今後
+ のスケジュール / 第46回 2026年8月4日(火) 芦屋モノリス /
+  ※8月は開催日が異なります、ご注意ください / 第50回 
+ 2026年12月8日(火) 芦屋モノリス / 第47回 2026年9月8日(火) 
+ 芦屋モノリス / 第51回 2027年1月12日(火) 芦屋モノリス / 
+ 第48回 2026年10月13日(火) 芦屋モノリス / 第52回 2027年2月9
+ 日(火) 芦屋モノリス
+URL:https://hirunoashiya-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:99bf3668bf2f6f0be8cdf85bf380c07abce5ca9f@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260909T023000Z
+DTEND:20260909T053000Z
+SUMMARY:守成クラブ姫路白鷺会場 例会
+LOCATION:
+DESCRIPTION:出典: https://himeji-shirasagi-shusei.club/\\n抽出元: 7月
+ 8日（水） / 第71回 / 8月12日（水） / 第72回 / 9月9日（水
+ ） / 第73回 / 10月14日（水） / 第74回
+URL:https://himeji-shirasagi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:1b6513d0f884d4ccf83b3831961661c4fa1eb934@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260909T090000Z
+DTEND:20260909T120000Z
+SUMMARY:守成クラブ伊丹会場 例会
+LOCATION:
+DESCRIPTION:出典: https://shusei-itami.club/\\n抽出元: ②JR伊丹駅
+ まで約30分→JR伊丹駅から徒歩5分 / 第45回 / 8月5日（水
+ ） / 第46回 / 9月9日（水） / 第47回 / 10月14日（水） / 事
+ 務局からのお知らせ
+URL:https://shusei-itami.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:2979cb1f7223d3ce8bd374f390b63759f7924e21@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260910T090000Z
+DTEND:20260910T120000Z
+SUMMARY:守成クラブ神戸会場 例会
+LOCATION:
+DESCRIPTION:出典: http://banban-kobe.com/\\n抽出元: 8月6日（木） 
+ / 第 / 244 / 回 / 9月10日（木） / 第 / 245 / 回
+URL:http://banban-kobe.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:6eae3330cad406e8a71497dca04ff3508af5ae6c@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260911T090000Z
+DTEND:20260911T120000Z
+SUMMARY:守成クラブ川西池田会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kawanishi-ikeda-shusei.club/\\n抽出元: 8月6
+ 日(木)｜23:59まで / 8月6日(木)｜23:59まで / アステホール 
+ / 第22回 / 2026年9月11日(金) / 9月3日(木)｜23:59まで / 9月3
+ 日(木)｜23:59まで / アゼリアホール
+URL:https://kawanishi-ikeda-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:553d8c1ec67a774237f00972e49064701804ffba@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260914T090000Z
+DTEND:20260914T120000Z
+SUMMARY:守成クラブ三宮会場 例会
+LOCATION:
+DESCRIPTION:出典: https://sannomiya-shusei.club/\\n抽出元: 7月13日(
+ 月) / 第108回 / 8月10日(月) / 第109回 / 9月14日(月) / 第110回
+  / 10月19日(月) / ※第3月曜日
+URL:https://sannomiya-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:591427c94d5b510adb474277f4e647e5a6bc803e@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260914T090000Z
+DTEND:20260914T120000Z
+SUMMARY:守成クラブ芦屋会場 例会
+LOCATION:
+DESCRIPTION:出典: https://ashiya-shusei.club/\\n抽出元: ・出席申
+ 込後、欠席に変更する場合、申し込みをされたご本人
+ が改めて 「欠席申請」し直してください。 / 第102回 / 8
+ 月3日（月）※第1月曜日 / 第103回 / 9月14日（月）※第2
+ 月曜日 / 守成クラブとは / 芦屋会場概要 / マイページ
+URL:https://ashiya-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:5fd8acb4fc0ba4c7f8caa38172ad39aa2602e1de@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260915T033000Z
+DTEND:20260915T063000Z
+SUMMARY:守成クラブ昼の明石会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hirunoakashi-shusei.club/\\n抽出元: 7月21
+ 日（火） / 第30回 / 8月18日（火） / 第31回 / 9月15日（火
+ ） / 第32回 / 10月20日（火） / 第33回
+URL:https://hirunoakashi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:f23943003531b638f10cdeefa77102411fa8d95b@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260915T090000Z
+DTEND:20260915T120000Z
+SUMMARY:守成クラブ神戸西会場 例会
+LOCATION:
+DESCRIPTION:出典: https://shusei-kobenishi.jp/\\n抽出元: 7月21日（
+ 火） / 第60回 / 8月18日（火） / 第61回 / 9月15日（火） / 
+ 第62回 / 10月20日（火） / 第63回
+URL:https://shusei-kobenishi.jp/
+END:VEVENT
+BEGIN:VEVENT
+UID:8790e1f470c056f0a81806fa64d47de67cfbb531@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260916T023000Z
+DTEND:20260916T053000Z
+SUMMARY:守成クラブ兵庫加古川会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kakogawa-shusei.club/\\n抽出元: 7月15日（
+ 水） / 第65回 / 8月19日（水） / 第66回 / 9月16日（水） / 
+ 第67回 / 10月21日（水） / 第68回
+URL:https://kakogawa-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:1163b518632e21ba218bd8ab3b99305062ed5ac8@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260917T090000Z
+DTEND:20260917T120000Z
+SUMMARY:守成クラブみなと神戸会場 例会
+LOCATION:
+DESCRIPTION:出典: https://www.minatokobe-shusei.club/\\n抽出元: 次回
+ 以降の例会案内 / 198回 / 2026年8月20日(木) / 199回 / 2026年9
+ 月17日(木) / 200回 / 2026年10月15日(木) / 201回
+URL:https://www.minatokobe-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:6fff20164c3367d09e5c3239838147aa0a592365@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260918T020000Z
+DTEND:20260918T050000Z
+SUMMARY:守成クラブヒルノ西宮えびす会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hiru-nishinomiyaebisu-shusei.club/\\n抽出元:
+  アクセスマップ / 今後のスケジュール / 第30回 8月21日
+ （金） 福寿の間 / 第33回 11月13日（金） 福寿の間 / 第31
+ 回 9月18日（金） 福寿の間 / 第34回 12月18日（金） 福寿
+ の間 / 第32回 10月16日（金） 福寿の間 / 第35回 1月15日（
+ 金） 福寿の間
+URL:https://hiru-nishinomiyaebisu-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccae60e380a6ee0d3d8bbc7260393526b5ffd114@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260928T020000Z
+DTEND:20260928T050000Z
+SUMMARY:守成クラブ宝塚会場 例会
+LOCATION:宝塚ホテル
+DESCRIPTION:出典: https://shusei-takarazuka.com/\\n抽出元: 8月16日(
+ 日)｜23:59まで / 8月16日(日)｜23:59まで / 宝塚ホテル / 第4
+ 回 / 2026年9月28日(月) / 9月20日(日)｜23:59まで / 9月20日(日
+ )｜23:59まで / 宝塚ホテル
+URL:https://shusei-takarazuka.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:72591e9d0b0ee47fd6b5638ffde9e7f5b4d161e9@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260928T090000Z
+DTEND:20260928T120000Z
+SUMMARY:守成クラブ明石会場 例会
+LOCATION:
+DESCRIPTION:出典: https://akashi-shusei.club/\\n抽出元: ※第4月 / 
+ 第75回 / 8月17日（月） / 第76回 / 9月28日（月） / ※第4月
+  / 第77回 / 10月19日（月）
+URL:https://akashi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:8f4df9e8c0dbd1ab19f6c8f32e0ab34eb0d2b4a7@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260929T040000Z
+DTEND:20260929T070000Z
+SUMMARY:守成クラブ神戸三田会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kobesanda-syusei.club/\\n抽出元: 7月28日
+ （火） / 第65回 / 8月25日（火） / 第66回 / 9月29日（火） 
+ / 第67回 / 10月27日（火） / 第68回
+URL:https://kobesanda-syusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:e07eb9abbc69d313e2c328c3f9562634a0f49e52@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260929T090000Z
+DTEND:20260929T120000Z
+SUMMARY:守成クラブ姫路会場 例会
+LOCATION:
+DESCRIPTION:出典: https://himeji-shusei.club/\\n抽出元: 7月28日（
+ 火） / 第120回 / 8月25日（火） / 第121回 / 9月29日（火） /
+  第122回 / 10月27日（火） / 第123回
+URL:https://himeji-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:48bd85e2bc5c91be08886089b4aecf04b25c4836@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20260930T023000Z
+DTEND:20260930T053000Z
+SUMMARY:守成クラブヒルノ三宮会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hirunosannomiya-shusei.club/\\n抽出元: ﻿ /
+  第5回 5F / 8月26日(水) / 第6回 6F / 9月30日(水) / 第7回 6F / 
+ 10月28日(水) / 第8回 6F
+URL:https://hirunosannomiya-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:77e8e4f347aa18e8297d25d32d6bd691fa39e49e@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261001T040000Z
+DTEND:20261001T053000Z
+SUMMARY:守成クラブ昼ノみなと神戸会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hiruno-minatokobe.club/\\n抽出元: 2026年8
+ 月6日（木） / 第73回 / 2026年9月3日（木） / 第74回 / 2026
+ 年10月1日（木） / 第75回 / 2026年11月5日（木） / 事務局
+ からのお知らせ
+URL:https://hiruno-minatokobe.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:549fd4350b12369ac243621f6e9f665ed5fcb98e@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261001T090000Z
+DTEND:20261001T120000Z
+SUMMARY:守成クラブ神戸オリエンタル会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kobe-oriental-shusei.club/\\n抽出元: 8月5
+ 日（水） / 第68回 / 9月2日（水） / 第69回 / 10月1日（木
+ ） / 事務局からのお知らせ / 現在お知らせはありませ
+ ん / 上へ戻る
+URL:https://kobe-oriental-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:268042a461c51c84442bb546d372922a3d840976@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261007T010000Z
+DTEND:20261007T030000Z
+SUMMARY:守成クラブあさの明石会場 例会
+LOCATION:
+DESCRIPTION:出典: https://asanoakashi-shusei.club/\\n抽出元: 08月05
+ 日（水） / 第7回 / 09月02日（水） / 第8回 / 10月07日（水
+ ） / 第9回 / 11月04日（水） / 第10回
+URL:https://asanoakashi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:0bcae783fd3f99bc34b0d3ec639ad2f89eaad9c0@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261008T090000Z
+DTEND:20261008T120000Z
+SUMMARY:守成クラブ神戸会場 例会
+LOCATION:
+DESCRIPTION:出典: http://banban-kobe.com/\\n抽出元: 9月10日（木）
+  / 第 / 245 / 回 / 10月8日（木） / 第 / 246 / 回
+URL:http://banban-kobe.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:c40d4f91a2da6ba0b53c15784cea068dcfe2b269@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261009T090000Z
+DTEND:20261009T120000Z
+SUMMARY:守成クラブ川西池田会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kawanishi-ikeda-shusei.club/\\n抽出元: 9月3
+ 日(木)｜23:59まで / 9月3日(木)｜23:59まで / アゼリアホー
+ ル / 第23回 / 2026年10月9日(金) / 10月1日(木)｜23:59まで / 10
+ 月1日(木)｜23:59まで / アステホール
+URL:https://kawanishi-ikeda-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:9ac0609892f55c041aea2d5d11854066c92d859e@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261013T020000Z
+DTEND:20261013T050000Z
+SUMMARY:守成クラブヒルノ芦屋会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hirunoashiya-shusei.club/\\n抽出元: ※8月
+ は開催日が異なります、ご注意ください / 第50回 2026年1
+ 2月8日(火) 芦屋モノリス / 第47回 2026年9月8日(火) 芦屋モ
+ ノリス / 第51回 2027年1月12日(火) 芦屋モノリス / 第48回 2
+ 026年10月13日(火) 芦屋モノリス / 第52回 2027年2月9日(火) 
+ 芦屋モノリス / 第49回 2026年11月10日(火) 芦屋モノリス / 
+ 第53回 2027年3月9日(火) 芦屋モノリス
+URL:https://hirunoashiya-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:10b055b38b16607f674f0ea053b11be20678b9f9@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261014T023000Z
+DTEND:20261014T053000Z
+SUMMARY:守成クラブ姫路白鷺会場 例会
+LOCATION:
+DESCRIPTION:出典: https://himeji-shirasagi-shusei.club/\\n抽出元: 8月
+ 12日（水） / 第72回 / 9月9日（水） / 第73回 / 10月14日（
+ 水） / 第74回 / 11月11日（水） / 第75回
+URL:https://himeji-shirasagi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:10d96d76f2b722f0d56710ac0e7f045bb42cb80a@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261014T090000Z
+DTEND:20261014T120000Z
+SUMMARY:守成クラブ伊丹会場 例会
+LOCATION:
+DESCRIPTION:出典: https://shusei-itami.club/\\n抽出元: 8月5日（水
+ ） / 第46回 / 9月9日（水） / 第47回 / 10月14日（水） / 事
+ 務局からのお知らせ / 現在お知らせはありません。 / 
+ 上へ戻る
+URL:https://shusei-itami.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:49b608789d75969420e8d4c565c99856ab274f54@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261015T090000Z
+DTEND:20261015T120000Z
+SUMMARY:守成クラブみなと神戸会場 例会
+LOCATION:
+DESCRIPTION:出典: https://www.minatokobe-shusei.club/\\n抽出元: 2026
+ 年8月20日(木) / 199回 / 2026年9月17日(木) / 200回 / 2026年10月
+ 15日(木) / 201回 / 2026年11月19日(木) / 守成クラブとは
+URL:https://www.minatokobe-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:e1ff497579f74016631e5720da466b01da1d249f@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261016T020000Z
+DTEND:20261016T050000Z
+SUMMARY:守成クラブヒルノ西宮えびす会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hiru-nishinomiyaebisu-shusei.club/\\n抽出元:
+  第30回 8月21日（金） 福寿の間 / 第33回 11月13日（金） 
+ 福寿の間 / 第31回 9月18日（金） 福寿の間 / 第34回 12月18
+ 日（金） 福寿の間 / 第32回 10月16日（金） 福寿の間 / 
+ 第35回 1月15日（金） 福寿の間 / 全国の例会開催予定日 
+ / スケジュールはこちら
+URL:https://hiru-nishinomiyaebisu-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:6bfd1f143979a5b83524c011a40a2f64479f9121@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261019T090000Z
+DTEND:20261019T120000Z
+SUMMARY:守成クラブ三宮会場 例会
+LOCATION:
+DESCRIPTION:出典: https://sannomiya-shusei.club/\\n抽出元: 8月10日(
+ 月) / 第109回 / 9月14日(月) / 第110回 / 10月19日(月) / ※第3
+ 月曜日 / 第111回 / 11月9日(月)
+URL:https://sannomiya-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:ce1255b59cc7ab0e9cd237f76eaed861268da5b0@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261019T090000Z
+DTEND:20261019T120000Z
+SUMMARY:守成クラブ明石会場 例会
+LOCATION:
+DESCRIPTION:出典: https://akashi-shusei.club/\\n抽出元: 第76回 / 9
+ 月28日（月） / ※第4月 / 第77回 / 10月19日（月） / 第78回
+  / 11月16日（月） / 第79回
+URL:https://akashi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:8c8ef39e174f6c82ee04ad786a4870ec84499344@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261020T033000Z
+DTEND:20261020T063000Z
+SUMMARY:守成クラブ昼の明石会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hirunoakashi-shusei.club/\\n抽出元: 8月18
+ 日（火） / 第31回 / 9月15日（火） / 第32回 / 10月20日（火
+ ） / 第33回 / 11月17日（火） / 第34回
+URL:https://hirunoakashi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:001e35cd4a5b07afd11ade0dbcccefb4c7b84e48@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261020T090000Z
+DTEND:20261020T120000Z
+SUMMARY:守成クラブ神戸西会場 例会
+LOCATION:
+DESCRIPTION:出典: https://shusei-kobenishi.jp/\\n抽出元: 8月18日（
+ 火） / 第61回 / 9月15日（火） / 第62回 / 10月20日（火） / 
+ 第63回 / 11月17日（火） / 第64回
+URL:https://shusei-kobenishi.jp/
+END:VEVENT
+BEGIN:VEVENT
+UID:5f3866a3437a2148b0eb1f64b99f24ad5fa8038c@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261021T023000Z
+DTEND:20261021T053000Z
+SUMMARY:守成クラブ兵庫加古川会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kakogawa-shusei.club/\\n抽出元: 8月19日（
+ 水） / 第66回 / 9月16日（水） / 第67回 / 10月21日（水） / 
+ 第68回 / 11月18日（水） / 第69回
+URL:https://kakogawa-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:f6d72e7a02f7ff9448f961fbec4c3cfdd49b8eac@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261021T090000Z
+DTEND:20261021T120000Z
+SUMMARY:守成クラブはりま加古川会場 例会
+LOCATION:
+DESCRIPTION:出典: https://harimakakogawa-shusei.club/\\n抽出元: 8月19
+ 日（水） / 第7回 / 9月16日（水） / 第8回 / 10月21日（水
+ ） / 第9回 / 11月18日（水） / 第10回
+URL:https://harimakakogawa-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:4a9a5b7cf46087a55a20df965e483e61dd904250@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261026T020000Z
+DTEND:20261026T050000Z
+SUMMARY:守成クラブ宝塚会場 例会
+LOCATION:宝塚ホテル
+DESCRIPTION:出典: https://shusei-takarazuka.com/\\n抽出元: 9月20日(
+ 日)｜23:59まで / 9月20日(日)｜23:59まで / 宝塚ホテル / 第5
+ 回 / 2026年10月26日(月) / 10月18日(日)｜23:59まで / 10月18日(
+ 日)｜23:59まで / 宝塚ホテル
+URL:https://shusei-takarazuka.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:f77e6c32838ed00b013ec0b871c48b2f499b726a@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261027T040000Z
+DTEND:20261027T070000Z
+SUMMARY:守成クラブ神戸三田会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kobesanda-syusei.club/\\n抽出元: 8月25日
+ （火） / 第66回 / 9月29日（火） / 第67回 / 10月27日（火）
+  / 第68回 / 11月24日（火） / 第69回
+URL:https://kobesanda-syusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:3efdcb04a89ea39aa4e02a62d11fa3416b17e90e@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261027T090000Z
+DTEND:20261027T120000Z
+SUMMARY:守成クラブ姫路会場 例会
+LOCATION:
+DESCRIPTION:出典: https://himeji-shusei.club/\\n抽出元: 8月25日（
+ 火） / 第121回 / 9月29日（火） / 第122回 / 10月27日（火） 
+ / 第123回 / 11月24日（火） / 第124回
+URL:https://himeji-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:46f494f4ae5c83a9b6a11de0882f958114993a08@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261028T023000Z
+DTEND:20261028T053000Z
+SUMMARY:守成クラブヒルノ三宮会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hirunosannomiya-shusei.club/\\n抽出元: 8月2
+ 6日(水) / 第6回 6F / 9月30日(水) / 第7回 6F / 10月28日(水) / 
+ 第8回 6F / 11月25日(水) / 第9回 6F
+URL:https://hirunosannomiya-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:0f1557925bc316ee58cd4d8abf3a32f704c8f9ce@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261104T010000Z
+DTEND:20261104T030000Z
+SUMMARY:守成クラブあさの明石会場 例会
+LOCATION:
+DESCRIPTION:出典: https://asanoakashi-shusei.club/\\n抽出元: 09月02
+ 日（水） / 第8回 / 10月07日（水） / 第9回 / 11月04日（水
+ ） / 第10回 / 12月02日（水） / 第11回
+URL:https://asanoakashi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:3fd6c052e639dc8d38158a3775ed16d5116f5d81@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261105T040000Z
+DTEND:20261105T053000Z
+SUMMARY:守成クラブ昼ノみなと神戸会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hiruno-minatokobe.club/\\n抽出元: 2026年9
+ 月3日（木） / 第74回 / 2026年10月1日（木） / 第75回 / 2026
+ 年11月5日（木） / 事務局からのお知らせ / 2024年12月3日 
+ 更新 / 2025年イベント情報一覧
+URL:https://hiruno-minatokobe.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:bbe699dafc098f70e0152f9c63ecbee10e0319c2@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261109T090000Z
+DTEND:20261109T120000Z
+SUMMARY:守成クラブ三宮会場 例会
+LOCATION:
+DESCRIPTION:出典: https://sannomiya-shusei.club/\\n抽出元: 第110回 /
+  10月19日(月) / ※第3月曜日 / 第111回 / 11月9日(月) / 第112
+ 回 / 12月14日(月) / 第113回
+URL:https://sannomiya-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:311c9b10113e9204847ee9b2e5cca1f785761c02@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261110T020000Z
+DTEND:20261110T050000Z
+SUMMARY:守成クラブヒルノ芦屋会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hirunoashiya-shusei.club/\\n抽出元: 第47回
+  2026年9月8日(火) 芦屋モノリス / 第51回 2027年1月12日(火) 
+ 芦屋モノリス / 第48回 2026年10月13日(火) 芦屋モノリス / 
+ 第52回 2027年2月9日(火) 芦屋モノリス / 第49回 2026年11月10
+ 日(火) 芦屋モノリス / 第53回 2027年3月9日(火) 芦屋モノ
+ リス / ※都合により、日程・会場が変更になる場合も
+ あります。 / 全国の例会開催予定日
+URL:https://hirunoashiya-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:69eef22eacd5770f5165dc1839659db68e985d36@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261111T023000Z
+DTEND:20261111T053000Z
+SUMMARY:守成クラブ姫路白鷺会場 例会
+LOCATION:
+DESCRIPTION:出典: https://himeji-shirasagi-shusei.club/\\n抽出元: 9月
+ 9日（水） / 第73回 / 10月14日（水） / 第74回 / 11月11日（
+ 水） / 第75回 / 12月8日（火） / ※第2火曜
+URL:https://himeji-shirasagi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:db7cf259692d0b51aee25f413af179764b28a14a@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261112T090000Z
+DTEND:20261112T120000Z
+SUMMARY:守成クラブ神戸会場 例会
+LOCATION:
+DESCRIPTION:出典: http://banban-kobe.com/\\n抽出元: 10月8日（木）
+  / 第 / 246 / 回 / 11月12日（木） / 第 / 247 / 回
+URL:http://banban-kobe.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:2d6d3c1258f61bcb0fa62ed5c7e83bfc2bd7defb@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261113T020000Z
+DTEND:20261113T050000Z
+SUMMARY:守成クラブヒルノ西宮えびす会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hiru-nishinomiyaebisu-shusei.club/\\n抽出元:
+  車座用自己紹介カードのダウンロードはこちらから（
+ パワーポイント） / アクセスマップ / 今後のスケジュ
+ ール / 第30回 8月21日（金） 福寿の間 / 第33回 11月13日（
+ 金） 福寿の間 / 第31回 9月18日（金） 福寿の間 / 第34回 
+ 12月18日（金） 福寿の間 / 第32回 10月16日（金） 福寿の
+ 間
+URL:https://hiru-nishinomiyaebisu-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:e95a2c61e105e1f711ef2fba60d31f46e44bf57e@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261116T090000Z
+DTEND:20261116T120000Z
+SUMMARY:守成クラブ明石会場 例会
+LOCATION:
+DESCRIPTION:出典: https://akashi-shusei.club/\\n抽出元: ※第4月 / 
+ 第77回 / 10月19日（月） / 第78回 / 11月16日（月） / 第79回
+  / 12月21日（月） / 事務局からのお知らせ
+URL:https://akashi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:669c6a8f438d614d931d3a81b218717cdffbf8db@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261117T033000Z
+DTEND:20261117T063000Z
+SUMMARY:守成クラブ昼の明石会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hirunoakashi-shusei.club/\\n抽出元: 9月15
+ 日（火） / 第32回 / 10月20日（火） / 第33回 / 11月17日（
+ 火） / 第34回 / 12月15日（火） / 守成クラブとは
+URL:https://hirunoakashi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:ddbae10e1599aade18335f7e70734693b29069a9@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261117T090000Z
+DTEND:20261117T120000Z
+SUMMARY:守成クラブ神戸西会場 例会
+LOCATION:
+DESCRIPTION:出典: https://shusei-kobenishi.jp/\\n抽出元: 9月15日（
+ 火） / 第62回 / 10月20日（火） / 第63回 / 11月17日（火） /
+  第64回 / 12月15日（火） / 事務局からのお知らせ
+URL:https://shusei-kobenishi.jp/
+END:VEVENT
+BEGIN:VEVENT
+UID:fcf020654d76ab99b42fd0cc685082385e6759ea@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261118T023000Z
+DTEND:20261118T053000Z
+SUMMARY:守成クラブ兵庫加古川会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kakogawa-shusei.club/\\n抽出元: 9月16日（
+ 水） / 第67回 / 10月21日（水） / 第68回 / 11月18日（水） /
+  第69回 / 12月16日（水） / 事務局からのお知らせ
+URL:https://kakogawa-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:7559ce4d25fdf0b8d7dddb3fd059ac457fd0bbb7@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261118T090000Z
+DTEND:20261118T120000Z
+SUMMARY:守成クラブはりま加古川会場 例会
+LOCATION:
+DESCRIPTION:出典: https://harimakakogawa-shusei.club/\\n抽出元: 9月16
+ 日（水） / 第8回 / 10月21日（水） / 第9回 / 11月18日（水
+ ） / 第10回 / 12月16日（水） / 第11回
+URL:https://harimakakogawa-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:d8f3dd9be7ecb2eaa05c0afefefc40255750e0db@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261119T090000Z
+DTEND:20261119T120000Z
+SUMMARY:守成クラブみなと神戸会場 例会
+LOCATION:
+DESCRIPTION:出典: https://www.minatokobe-shusei.club/\\n抽出元: 2026
+ 年9月17日(木) / 200回 / 2026年10月15日(木) / 201回 / 2026年11
+ 月19日(木) / 守成クラブとは / 守成クラブとは、単なる
+ 異業種交流会とは違い、 / 経営者同⼠が⼒を合わせ、
+ お互いのマーケットを作り、
+URL:https://www.minatokobe-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:e8eb09f3420ed39aac9dc1f1b9329e094bcec0e9@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261124T020000Z
+DTEND:20261124T050000Z
+SUMMARY:守成クラブ宝塚会場 例会
+LOCATION:宝塚ホテル
+DESCRIPTION:出典: https://shusei-takarazuka.com/\\n抽出元: 10月18日(
+ 日)｜23:59まで / 10月18日(日)｜23:59まで / 宝塚ホテル / 第
+ 6回 / 2026年11月24日(火) / 11月16日(月)｜23:59まで / 11月16日
+ (月)｜23:59まで / 宝塚ホテル
+URL:https://shusei-takarazuka.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:ac3aeda7fe6d06db6fe901dc7f10f6b5cc6cc388@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261124T040000Z
+DTEND:20261124T070000Z
+SUMMARY:守成クラブ神戸三田会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kobesanda-syusei.club/\\n抽出元: 9月29日
+ （火） / 第67回 / 10月27日（火） / 第68回 / 11月24日（火
+ ） / 第69回 / 12月22日（火） / 第70回
+URL:https://kobesanda-syusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:653781dbe8ed3ea9e1dacdcb636c90403213c4cc@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261124T090000Z
+DTEND:20261124T120000Z
+SUMMARY:守成クラブ姫路会場 例会
+LOCATION:
+DESCRIPTION:出典: https://himeji-shusei.club/\\n抽出元: 9月29日（
+ 火） / 第122回 / 10月27日（火） / 第123回 / 11月24日（火）
+  / 第124回 / 12月22日（火） / 事務局からのお知らせ
+URL:https://himeji-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:ca33b006633a46c24e21b7d2223b4f7e6c345813@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261125T023000Z
+DTEND:20261125T053000Z
+SUMMARY:守成クラブヒルノ三宮会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hirunosannomiya-shusei.club/\\n抽出元: 9月3
+ 0日(水) / 第7回 6F / 10月28日(水) / 第8回 6F / 11月25日(水) / 
+ 第9回 6F / 12月23日(水) / 開催場所は同じですが、階が違
+ います。
+URL:https://hirunosannomiya-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:f91774fd68ea9b20ddf62d5752fdb4943b844bb0@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261202T010000Z
+DTEND:20261202T030000Z
+SUMMARY:守成クラブあさの明石会場 例会
+LOCATION:
+DESCRIPTION:出典: https://asanoakashi-shusei.club/\\n抽出元: 10月07
+ 日（水） / 第9回 / 11月04日（水） / 第10回 / 12月02日（水
+ ） / 第11回 / 01月06日（火） / 第12回
+URL:https://asanoakashi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:0499e37238201ed314d666aaeab6353300b0de78@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261208T020000Z
+DTEND:20261208T050000Z
+SUMMARY:守成クラブヒルノ芦屋会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hirunoashiya-shusei.club/\\n抽出元: アク
+ セスマップ / 今後のスケジュール / 第46回 2026年8月4日(
+ 火) 芦屋モノリス / ※8月は開催日が異なります、ご注
+ 意ください / 第50回 2026年12月8日(火) 芦屋モノリス / 第4
+ 7回 2026年9月8日(火) 芦屋モノリス / 第51回 2027年1月12日(
+ 火) 芦屋モノリス / 第48回 2026年10月13日(火) 芦屋モノリ
+ ス
+URL:https://hirunoashiya-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:1a11a588e6ac0a7ea5ef3527a79be7f97d13595b@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261208T023000Z
+DTEND:20261208T053000Z
+SUMMARY:守成クラブ姫路白鷺会場 例会
+LOCATION:
+DESCRIPTION:出典: https://himeji-shirasagi-shusei.club/\\n抽出元: 10
+ 月14日（水） / 第74回 / 11月11日（水） / 第75回 / 12月8日
+ （火） / ※第2火曜 / 事務局からのお知らせ / 2025年4月24
+ 日 更新
+URL:https://himeji-shirasagi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:212811586b525a04641106508158c259009d794e@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261210T090000Z
+DTEND:20261210T120000Z
+SUMMARY:守成クラブ神戸会場 例会
+LOCATION:
+DESCRIPTION:出典: http://banban-kobe.com/\\n抽出元: 11月12日（木
+ ） / 第 / 247 / 回 / 12月10日（木） / 一人はみんなのため
+ に、 / みんなは一人のために / 守成クラブとは、単な
+ る異業種交流会とは違います。
+URL:http://banban-kobe.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:aa6da8c4df4be2fe5d49e3538355607ca1b3339a@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261214T090000Z
+DTEND:20261214T120000Z
+SUMMARY:守成クラブ三宮会場 例会
+LOCATION:
+DESCRIPTION:出典: https://sannomiya-shusei.club/\\n抽出元: ※第3月
+ 曜日 / 第111回 / 11月9日(月) / 第112回 / 12月14日(月) / 第113
+ 回 / 1月18日(月) / ※第3月曜日
+URL:https://sannomiya-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:c6e27709acf752d1ad1f20bba4e305744a411e8c@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261215T033000Z
+DTEND:20261215T063000Z
+SUMMARY:守成クラブ昼の明石会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hirunoakashi-shusei.club/\\n抽出元: 10月20
+ 日（火） / 第33回 / 11月17日（火） / 第34回 / 12月15日（
+ 火） / 守成クラブとは / 昼の明石会場概要 / マイペー
+ ジ
+URL:https://hirunoakashi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:1d1857dc3d4188f9c8e927f3ad1194277b76b140@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261215T090000Z
+DTEND:20261215T120000Z
+SUMMARY:守成クラブ神戸西会場 例会
+LOCATION:
+DESCRIPTION:出典: https://shusei-kobenishi.jp/\\n抽出元: 10月20日（
+ 火） / 第63回 / 11月17日（火） / 第64回 / 12月15日（火） /
+  事務局からのお知らせ / 現在お知らせはありません。 
+ / 上へ戻る
+URL:https://shusei-kobenishi.jp/
+END:VEVENT
+BEGIN:VEVENT
+UID:a84adf9459d2f44f182a621fb660ea0ddb575231@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261216T023000Z
+DTEND:20261216T053000Z
+SUMMARY:守成クラブ兵庫加古川会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kakogawa-shusei.club/\\n抽出元: 10月21日
+ （水） / 第68回 / 11月18日（水） / 第69回 / 12月16日（水
+ ） / 事務局からのお知らせ / 現在お知らせはありませ
+ ん。 / 上へ戻る
+URL:https://kakogawa-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:95488bb9ce1239835ee44aaef500c48fe82f0d0d@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261216T090000Z
+DTEND:20261216T120000Z
+SUMMARY:守成クラブはりま加古川会場 例会
+LOCATION:
+DESCRIPTION:出典: https://harimakakogawa-shusei.club/\\n抽出元: 10月2
+ 1日（水） / 第9回 / 11月18日（水） / 第10回 / 12月16日（
+ 水） / 第11回 / 1月20日（水） / 第12回
+URL:https://harimakakogawa-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:f38c9b4f5644e9bc2d811bdd852ea53cf90fcbb6@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261218T020000Z
+DTEND:20261218T050000Z
+SUMMARY:守成クラブヒルノ西宮えびす会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hiru-nishinomiyaebisu-shusei.club/\\n抽出元:
+  今後のスケジュール / 第30回 8月21日（金） 福寿の間 / 
+ 第33回 11月13日（金） 福寿の間 / 第31回 9月18日（金） 
+ 福寿の間 / 第34回 12月18日（金） 福寿の間 / 第32回 10月1
+ 6日（金） 福寿の間 / 第35回 1月15日（金） 福寿の間 / 
+ 全国の例会開催予定日
+URL:https://hiru-nishinomiyaebisu-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:018d0ab65a296472d0492c4777469525d4c7df45@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261221T020000Z
+DTEND:20261221T050000Z
+SUMMARY:守成クラブ宝塚会場 例会
+LOCATION:宝塚ホテル
+DESCRIPTION:出典: https://shusei-takarazuka.com/\\n抽出元: 11月16日(
+ 月)｜23:59まで / 11月16日(月)｜23:59まで / 宝塚ホテル / 第
+ 7回 / 2026年12月21日(月) / 12月13日(日)｜23:59まで / 12月13日
+ (日)｜23:59まで / 宝塚ホテル
+URL:https://shusei-takarazuka.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:041b97c13fa77bc9baf4508a5dcf0c221ac8c197@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261221T090000Z
+DTEND:20261221T120000Z
+SUMMARY:守成クラブ明石会場 例会
+LOCATION:
+DESCRIPTION:出典: https://akashi-shusei.club/\\n抽出元: 10月19日（
+ 月） / 第78回 / 11月16日（月） / 第79回 / 12月21日（月） /
+  事務局からのお知らせ / 2021年7月21日 更新 / 明石会場
+ のHPがリニューアルしました
+URL:https://akashi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:96a94f67773bcdba239c81e2947337fc74b1287b@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261222T040000Z
+DTEND:20261222T070000Z
+SUMMARY:守成クラブ神戸三田会場 例会
+LOCATION:
+DESCRIPTION:出典: https://kobesanda-syusei.club/\\n抽出元: 10月27日
+ （火） / 第68回 / 11月24日（火） / 第69回 / 12月22日（火
+ ） / 第70回 / 1月19日（火） / 第71回
+URL:https://kobesanda-syusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:d41fdd4062a6c45b29702073d741f1c27a9d08f5@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261222T090000Z
+DTEND:20261222T120000Z
+SUMMARY:守成クラブ姫路会場 例会
+LOCATION:
+DESCRIPTION:出典: https://himeji-shusei.club/\\n抽出元: 10月27日（
+ 火） / 第123回 / 11月24日（火） / 第124回 / 12月22日（火）
+  / 事務局からのお知らせ / 現在お知らせはありません
+ 。 / 上へ戻る
+URL:https://himeji-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:812199d032883bca9aad9bb61a6ccf0439067f9d@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20261223T023000Z
+DTEND:20261223T053000Z
+SUMMARY:守成クラブヒルノ三宮会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hirunosannomiya-shusei.club/\\n抽出元: 10月
+ 28日(水) / 第8回 6F / 11月25日(水) / 第9回 6F / 12月23日(水) /
+  開催場所は同じですが、階が違います。 / お間違えの
+ ないようよろしくお願いいたします。 / 4F:ザ テラスル
+ ーム
+URL:https://hirunosannomiya-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:4685aef8015e52f0ce4fa1b3691faaecad9e1d74@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20270106T010000Z
+DTEND:20270106T030000Z
+SUMMARY:守成クラブあさの明石会場 例会
+LOCATION:
+DESCRIPTION:出典: https://asanoakashi-shusei.club/\\n抽出元: 11月04
+ 日（水） / 第10回 / 12月02日（水） / 第11回 / 01月06日（
+ 火） / 第12回 / 02月03日（火） / 守成クラブとは
+URL:https://asanoakashi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:847a91efe9547c246d115eec2231416b8cd9e24e@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20270120T090000Z
+DTEND:20270120T120000Z
+SUMMARY:守成クラブはりま加古川会場 例会
+LOCATION:
+DESCRIPTION:出典: https://harimakakogawa-shusei.club/\\n抽出元: 11月1
+ 8日（水） / 第10回 / 12月16日（水） / 第11回 / 1月20日（
+ 水） / 第12回 / 2月17日（水） / 第13回
+URL:https://harimakakogawa-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:2d386bca973799ca44f3cae829b01cce51869eea@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20270203T010000Z
+DTEND:20270203T030000Z
+SUMMARY:守成クラブあさの明石会場 例会
+LOCATION:
+DESCRIPTION:出典: https://asanoakashi-shusei.club/\\n抽出元: 12月02
+ 日（水） / 第11回 / 01月06日（火） / 第12回 / 02月03日（
+ 火） / 守成クラブとは / あさの明石会場概要 / マイペ
+ ージ
+URL:https://asanoakashi-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:475b01283ac279631e5cb50c89ab60fc749169b6@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20270217T090000Z
+DTEND:20270217T120000Z
+SUMMARY:守成クラブはりま加古川会場 例会
+LOCATION:
+DESCRIPTION:出典: https://harimakakogawa-shusei.club/\\n抽出元: 12月1
+ 6日（水） / 第11回 / 1月20日（水） / 第12回 / 2月17日（水
+ ） / 第13回 / 3月17日（水） / 守成クラブとは
+URL:https://harimakakogawa-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:505b4f59da0843cca1b889e60fab87aa963ca1e1@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20270318T090000Z
+DTEND:20270318T120000Z
+SUMMARY:守成クラブ阪神尼崎会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hanshin-ama-shusei.club/\\n抽出元: ◆守成
+ クラブ阪神尼崎会場では、全会員が必ず出欠報告をし
+ ていただくことをルールとしています。 / ◆お食事の
+ 用意のため、締切日以降のキャンセルの場合はキャン
+ セル料(参加費全額)が必要となります。 / 今後の例会予
+ 定 / 第94回 / 3月18日(第3水曜日) / 第95回 / 4月15日(第3水
+ 曜日) / 第96回
+URL:https://hanshin-ama-shusei.club/
+END:VEVENT
+BEGIN:VEVENT
+UID:7a3e5d34b9cd4ac83ec92ad2a3ed535b8e93af43@shusei-hyogo-calendar
+DTSTAMP:20260630T234038Z
+DTSTART:20270415T090000Z
+DTEND:20270415T120000Z
+SUMMARY:守成クラブ阪神尼崎会場 例会
+LOCATION:
+DESCRIPTION:出典: https://hanshin-ama-shusei.club/\\n抽出元: 今後の
+ 例会予定 / 第94回 / 3月18日(第3水曜日) / 第95回 / 4月15日(
+ 第3水曜日) / 第96回 / 5月20日(第3水曜日) / 上へ戻る
+URL:https://hanshin-ama-shusei.club/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>守成クラブ兵庫県会場 例会カレンダー</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #18212f;
+        --muted: #667182;
+        --line: #dce3ea;
+        --paper: #f7f8f6;
+        --surface: #ffffff;
+        --accent: #286f57;
+        --accent-2: #b84f43;
+        --gold: #b88728;
+        --blue: #386ea8;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family:
+          "Hiragino Kaku Gothic ProN", "Yu Gothic", "YuGothic", "Noto Sans JP",
+          system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .calendar-widget {
+        width: min(1120px, 100%);
+        margin: 0 auto;
+        padding: clamp(14px, 2.8vw, 28px);
+      }
+
+      .topbar {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 18px;
+        margin-bottom: 18px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(1.45rem, 3.4vw, 2.4rem);
+        line-height: 1.22;
+        letter-spacing: 0;
+      }
+
+      .updated {
+        margin: 8px 0 0;
+        color: var(--muted);
+        font-size: 0.86rem;
+        font-weight: 700;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 10px;
+      }
+
+      .action-pair {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+      }
+
+      .button {
+        display: inline-flex;
+        min-height: 40px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(24, 33, 47, 0.14);
+        border-radius: 8px;
+        padding: 8px 12px;
+        background: var(--surface);
+        color: var(--ink);
+        font: inherit;
+        font-size: 0.9rem;
+        font-weight: 800;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .button.primary {
+        border-color: var(--accent);
+        background: var(--accent);
+        color: white;
+      }
+
+      .help-button {
+        display: inline-grid;
+        width: 28px;
+        height: 28px;
+        place-items: center;
+        border: 1px solid rgba(24, 33, 47, 0.22);
+        border-radius: 50%;
+        background: var(--surface);
+        color: var(--ink);
+        font: inherit;
+        font-size: 0.9rem;
+        font-weight: 900;
+        cursor: pointer;
+      }
+
+      .filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 16px;
+      }
+
+      .filter {
+        min-height: 36px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 7px 12px;
+        background: var(--surface);
+        color: #354154;
+        font: inherit;
+        font-size: 0.86rem;
+        font-weight: 800;
+        cursor: pointer;
+      }
+
+      .filter[aria-pressed="true"] {
+        border-color: var(--ink);
+        background: var(--ink);
+        color: white;
+      }
+
+      .status {
+        margin: 14px 0;
+        color: var(--muted);
+        font-size: 0.92rem;
+        font-weight: 700;
+      }
+
+      .event-list {
+        display: grid;
+        gap: 10px;
+      }
+
+      .event {
+        display: grid;
+        grid-template-columns: 108px minmax(0, 1fr) auto;
+        gap: 14px;
+        align-items: center;
+        border: 1px solid rgba(24, 33, 47, 0.1);
+        border-left: 5px solid var(--accent);
+        border-radius: 8px;
+        padding: 14px;
+        background: var(--surface);
+      }
+
+      .datebox {
+        display: grid;
+        gap: 2px;
+        text-align: center;
+      }
+
+      .month {
+        color: var(--accent-2);
+        font-size: 0.82rem;
+        font-weight: 900;
+      }
+
+      .day {
+        font-size: 2rem;
+        font-weight: 900;
+        line-height: 1;
+      }
+
+      .weekday {
+        color: var(--muted);
+        font-size: 0.78rem;
+        font-weight: 800;
+      }
+
+      .event h2 {
+        margin: 0;
+        font-size: 1.06rem;
+        line-height: 1.35;
+        letter-spacing: 0;
+      }
+
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7px;
+        margin: 8px 0 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .meta li {
+        border-radius: 999px;
+        padding: 4px 8px;
+        background: #eef2f4;
+        color: #435064;
+        font-size: 0.78rem;
+        font-weight: 800;
+      }
+
+      .event-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: flex-end;
+      }
+
+      .mini {
+        min-width: 42px;
+        min-height: 36px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 7px 10px;
+        background: #fbfcfd;
+        font-size: 0.82rem;
+        font-weight: 900;
+        text-decoration: none;
+      }
+
+      .empty {
+        border: 1px dashed var(--line);
+        border-radius: 8px;
+        padding: 24px;
+        background: rgba(255, 255, 255, 0.68);
+        color: var(--muted);
+        text-align: center;
+        font-weight: 800;
+      }
+
+      .modal-backdrop {
+        position: fixed;
+        inset: 0;
+        z-index: 50;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        padding: 18px;
+        background: rgba(24, 33, 47, 0.48);
+      }
+
+      .modal-backdrop.is-open {
+        display: flex;
+      }
+
+      .modal {
+        width: min(560px, 100%);
+        max-height: min(720px, calc(100vh - 36px));
+        overflow: auto;
+        border-radius: 8px;
+        background: var(--surface);
+        box-shadow: 0 22px 68px rgba(24, 33, 47, 0.24);
+      }
+
+      .modal-head {
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--line);
+        padding: 16px 18px;
+      }
+
+      .modal-title {
+        margin: 0;
+        font-size: 1.08rem;
+        line-height: 1.35;
+      }
+
+      .modal-close {
+        display: inline-grid;
+        width: 34px;
+        height: 34px;
+        place-items: center;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fbfcfd;
+        color: var(--ink);
+        font: inherit;
+        font-size: 1.2rem;
+        font-weight: 900;
+        cursor: pointer;
+      }
+
+      .modal-body {
+        display: grid;
+        gap: 12px;
+        padding: 18px;
+        color: #344154;
+        font-size: 0.95rem;
+        line-height: 1.75;
+      }
+
+      .modal-body p {
+        margin: 0;
+      }
+
+      .modal-body textarea {
+        width: 100%;
+        min-height: 120px;
+        resize: vertical;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 10px;
+        font: inherit;
+        line-height: 1.6;
+      }
+
+      .modal-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: flex-end;
+        border-top: 1px solid var(--line);
+        padding: 14px 18px 18px;
+      }
+
+      @media (max-width: 720px) {
+        .topbar {
+          align-items: stretch;
+          flex-direction: column;
+        }
+
+        .actions {
+          justify-content: flex-start;
+        }
+
+        .event {
+          grid-template-columns: 78px minmax(0, 1fr);
+        }
+
+        .event-actions {
+          grid-column: 1 / -1;
+          justify-content: flex-start;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="calendar-widget">
+      <div class="topbar">
+        <div>
+          <h1 id="calendarName">守成クラブ兵庫県会場 例会カレンダー</h1>
+          <p class="updated" id="updated">日程を読み込み中</p>
+        </div>
+        <div class="actions">
+          <span class="action-pair">
+            <a class="button" id="googleSubscribe" href="#" target="_blank" rel="noopener" hidden>Googleカレンダーに追加</a>
+            <button class="help-button" id="googleHelp" type="button" aria-label="Googleカレンダーに追加の説明" hidden>?</button>
+          </span>
+          <span class="action-pair">
+            <a class="button primary" id="icsDownload" href="../data/events.ics" download>ICSダウンロード</a>
+            <button class="help-button" id="icsHelp" type="button" aria-label="ICSダウンロードの説明">?</button>
+          </span>
+        </div>
+      </div>
+
+      <div class="filters" id="filters" aria-label="エリア絞り込み"></div>
+      <p class="status" id="status"></p>
+      <section class="event-list" id="eventList" aria-label="例会日程一覧"></section>
+    </main>
+
+    <div class="modal-backdrop" id="modalBackdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal">
+        <div class="modal-head">
+          <h2 class="modal-title" id="modalTitle"></h2>
+          <button class="modal-close" id="modalClose" type="button" aria-label="閉じる">×</button>
+        </div>
+        <div class="modal-body" id="modalBody"></div>
+        <div class="modal-actions" id="modalActions"></div>
+      </div>
+    </div>
+
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const dataBase = window.location.pathname.includes("/public/") ? "../data" : "data";
+      const dataUrl = params.get("data") || dataBase + "/events.json";
+      const icsUrl = params.get("ics") || dataBase + "/events.ics";
+      const publicIcsUrl = params.get("publicIcs");
+      const reportEmail = params.get("reportEmail") || "";
+      const weekday = ["日", "月", "火", "水", "木", "金", "土"];
+      let payload = null;
+      let activeArea = "すべて";
+
+      const calendarNameEl = document.querySelector("#calendarName");
+      const updatedEl = document.querySelector("#updated");
+      const filtersEl = document.querySelector("#filters");
+      const statusEl = document.querySelector("#status");
+      const eventListEl = document.querySelector("#eventList");
+      const icsDownloadEl = document.querySelector("#icsDownload");
+      const googleSubscribeEl = document.querySelector("#googleSubscribe");
+      const googleHelpEl = document.querySelector("#googleHelp");
+      const icsHelpEl = document.querySelector("#icsHelp");
+      const modalBackdropEl = document.querySelector("#modalBackdrop");
+      const modalTitleEl = document.querySelector("#modalTitle");
+      const modalBodyEl = document.querySelector("#modalBody");
+      const modalActionsEl = document.querySelector("#modalActions");
+      const modalCloseEl = document.querySelector("#modalClose");
+
+      icsDownloadEl.href = icsUrl;
+      if (publicIcsUrl) {
+        googleSubscribeEl.href = `https://calendar.google.com/calendar/render?cid=${encodeURIComponent(publicIcsUrl)}`;
+        googleSubscribeEl.hidden = false;
+        googleHelpEl.hidden = false;
+      }
+
+      function formatTime(iso) {
+        return new Intl.DateTimeFormat("ja-JP", { hour: "2-digit", minute: "2-digit", hour12: false }).format(new Date(iso));
+      }
+
+      function formatGoogleDate(iso) {
+        return new Date(iso).toISOString().replace(/[-:]/g, "").replace(/\.\d{3}Z$/, "Z");
+      }
+
+      function googleEventUrl(event) {
+        const url = new URL("https://calendar.google.com/calendar/render");
+        url.searchParams.set("action", "TEMPLATE");
+        url.searchParams.set("text", event.title);
+        url.searchParams.set("dates", `${formatGoogleDate(event.startsAt)}/${formatGoogleDate(event.endsAt)}`);
+        url.searchParams.set("details", `出典: ${event.sourceUrl}`);
+        url.searchParams.set("location", event.location || "");
+        return url.toString();
+      }
+
+
+      function openModal(title, bodyHtml, actionsHtml = "") {
+        modalTitleEl.textContent = title;
+        modalBodyEl.innerHTML = bodyHtml;
+        modalActionsEl.innerHTML = actionsHtml || `<button class="button primary" type="button" data-close-modal>閉じる</button>`;
+        modalBackdropEl.classList.add("is-open");
+      }
+
+      function closeModal() {
+        modalBackdropEl.classList.remove("is-open");
+      }
+
+      function escapeHtml(value) {
+        return String(value || "")
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;");
+      }
+
+      function openHelp(type) {
+        if (type === "ics") {
+          openModal(
+            "ICSダウンロードとは",
+            `<p>ICSは、カレンダー予定を受け渡しするためのファイル形式です。</p>
+             <p>このボタンでは、現在表示している例会日程をファイルとしてダウンロードできます。Appleカレンダー、Outlook、Googleカレンダーへの手動取り込みなどに使えます。</p>
+             <p>ダウンロードしたファイルは、その時点の予定です。あとから日程が更新されても、手元のファイルは自動では変わりません。</p>`,
+          );
+          return;
+        }
+        openModal(
+          "Googleカレンダーに追加とは",
+          `<p>公開されたICSのURLを、あなたのGoogleカレンダーに登録するためのボタンです。</p>
+           <p>登録後はGoogleが定期的に日程ファイルを読み取りに行くため、こちらの予定が更新されるとGoogleカレンダー側にも反映されます。</p>
+           <p>反映は即時ではなく、数時間かかることがあります。ローカル確認用の127.0.0.1のURLは本番登録には使えません。</p>`,
+        );
+      }
+
+      function openReport(eventId) {
+        const event = payload.events.find((item) => item.id === eventId);
+        if (!event) return;
+        const details = [
+          `会場: ${event.venue}`,
+          `日付: ${event.date}`,
+          `時間: ${formatTime(event.startsAt)}-${formatTime(event.endsAt)}`,
+          `場所: ${event.location || "未取得"}`,
+          `公式ページ: ${event.sourceUrl}`,
+        ].join("\n");
+        const subject = `日程の間違い報告: ${event.venue} ${event.date}`;
+        const body = `${details}\n\n間違っている内容:\n`;
+        const mailto = `mailto:${encodeURIComponent(reportEmail)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        openModal(
+          "日程の間違いを報告",
+          `<p>以下の日程について、間違いを報告できます。</p>
+           <p><strong>${escapeHtml(event.venue)}</strong><br>${escapeHtml(event.date)} ${escapeHtml(formatTime(event.startsAt))}-${escapeHtml(formatTime(event.endsAt))}</p>
+           <textarea id="reportText">${escapeHtml(body)}</textarea>
+           <p>無料の静的サイト運用では、報告内容をそのまま自動反映する設定にはしていません。管理者が公式ページを確認してから修正する形が安全です。</p>`,
+          `<a class="button primary" id="reportMailLink" href="${mailto}">メールで報告</a>
+           <button class="button" type="button" id="copyReport">内容をコピー</button>`,
+        );
+      }
+
+      function renderFilters(events) {
+        const areas = ["すべて", ...new Set(events.map((event) => event.area).filter(Boolean))];
+        filtersEl.innerHTML = areas
+          .map(
+            (area) => `<button class="filter" type="button" data-area="${area}" aria-pressed="${area === activeArea}">${area}</button>`,
+          )
+          .join("");
+      }
+
+      function renderEvents() {
+        const events = payload.events.filter((event) => activeArea === "すべて" || event.area === activeArea);
+        statusEl.textContent = `${events.length}件表示 / 取得元 ${payload.events.length}件`;
+        if (!events.length) {
+          eventListEl.innerHTML = `<div class="empty">表示できる日程がありません</div>`;
+          return;
+        }
+        eventListEl.innerHTML = events
+          .map((event) => {
+            const date = new Date(`${event.date}T00:00:00+09:00`);
+            const month = date.getMonth() + 1;
+            const day = date.getDate();
+            return `
+              <article class="event">
+                <div class="datebox">
+                  <span class="month">${month}月</span>
+                  <span class="day">${day}</span>
+                  <span class="weekday">${weekday[date.getDay()]}曜日</span>
+                </div>
+                <div>
+                  <h2>${event.title}</h2>
+                  <ul class="meta">
+                    <li>${formatTime(event.startsAt)}-${formatTime(event.endsAt)}</li>
+                    <li>${event.area || "兵庫県"}</li>
+                    ${event.location ? `<li>${event.location}</li>` : ""}
+                    <li>信頼度 ${event.confidence}%</li>
+                  </ul>
+                </div>
+                <div class="event-actions">
+                  <a class="mini" href="${googleEventUrl(event)}" target="_blank" rel="noopener" title="Googleカレンダーへ追加">Google</a>
+                  <a class="mini" href="${event.sourceUrl}" target="_blank" rel="noopener" title="公式ページを開く">公式</a>
+                  <button class="mini" type="button" data-report-id="${event.id}" title="日程の間違いを報告">報告</button>
+                </div>
+              </article>
+            `;
+          })
+          .join("");
+      }
+
+      filtersEl.addEventListener("click", (event) => {
+        const button = event.target.closest("button");
+        if (!button) return;
+        activeArea = button.dataset.area;
+        renderFilters(payload.events);
+        renderEvents();
+      });
+
+      eventListEl.addEventListener("click", (event) => {
+        const button = event.target.closest("[data-report-id]");
+        if (!button) return;
+        openReport(button.dataset.reportId);
+      });
+
+      icsHelpEl.addEventListener("click", () => openHelp("ics"));
+      googleHelpEl.addEventListener("click", () => openHelp("google"));
+      modalCloseEl.addEventListener("click", closeModal);
+      modalBackdropEl.addEventListener("click", (event) => {
+        if (event.target === modalBackdropEl || event.target.closest("[data-close-modal]")) closeModal();
+        if (event.target.id === "copyReport") {
+          const textarea = document.querySelector("#reportText");
+          if (textarea) navigator.clipboard?.writeText(textarea.value);
+        }
+        if (event.target.id === "reportMailLink") {
+          const textarea = document.querySelector("#reportText");
+          const title = modalTitleEl.textContent || "日程の間違い報告";
+          if (textarea) {
+            event.target.href = `mailto:${encodeURIComponent(reportEmail)}?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(textarea.value)}`;
+          }
+        }
+      });
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") closeModal();
+      });
+
+      fetch(dataUrl, { cache: "no-store" })
+        .then((response) => {
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          return response.json();
+        })
+        .then((data) => {
+          payload = data;
+          calendarNameEl.textContent = data.calendarName || calendarNameEl.textContent;
+          updatedEl.textContent = `最終更新 ${new Date(data.generatedAt).toLocaleString("ja-JP")}`;
+          renderFilters(data.events);
+          renderEvents();
+        })
+        .catch((error) => {
+          updatedEl.textContent = "読み込みに失敗しました";
+          eventListEl.innerHTML = `<div class="empty">events.json を読み込めませんでした: ${error.message}</div>`;
+        });
+    </script>
+  </body>
+</html>
