@@ -411,9 +411,16 @@
       const modalActionsEl = document.querySelector("#modalActions");
       const modalCloseEl = document.querySelector("#modalClose");
 
+      function googleCalendarSubscribeUrl(value) {
+        const url = new URL("https://calendar.google.com/calendar/render");
+        const subscriptionUrl = value.replace(/^https?:\/\//, "webcal://");
+        url.searchParams.set("cid", subscriptionUrl);
+        return url.toString();
+      }
+
       icsDownloadEl.href = icsUrl;
       if (publicIcsUrl) {
-        googleSubscribeEl.href = `https://calendar.google.com/calendar/render?cid=${encodeURIComponent(publicIcsUrl)}`;
+        googleSubscribeEl.href = googleCalendarSubscribeUrl(publicIcsUrl);
         googleSubscribeEl.hidden = false;
         googleHelpEl.hidden = false;
       }

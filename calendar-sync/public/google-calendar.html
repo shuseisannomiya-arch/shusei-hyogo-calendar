@@ -259,6 +259,13 @@
         return new URL(value, window.location.href).toString();
       }
 
+      function googleCalendarSubscribeUrl(value) {
+        const url = new URL("https://calendar.google.com/calendar/render");
+        const subscriptionUrl = value.replace(/^https?:\/\//, "webcal://");
+        url.searchParams.set("cid", subscriptionUrl);
+        return url.toString();
+      }
+
       function makeEmbedUrl() {
         if (googleEmbed) return googleEmbed;
         if (!calendarId) return "";
@@ -305,7 +312,7 @@
       const publicIcs = absoluteUrl(icsUrl);
       const embedUrl = makeEmbedUrl();
       icsButton.href = icsUrl;
-      subscribeButton.href = "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(publicIcs);
+      subscribeButton.href = googleCalendarSubscribeUrl(publicIcs);
       listButton.href = "index.html?publicIcs=" + encodeURIComponent(publicIcs);
 
       icsHelpEl.addEventListener("click", () => openHelp("ics"));
