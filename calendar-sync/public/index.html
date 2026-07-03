@@ -359,8 +359,8 @@
         </div>
         <div class="actions">
           <span class="action-pair">
-            <a class="button" id="googleSubscribe" href="#" target="_blank" rel="noopener" hidden>Googleカレンダーに追加</a>
-            <button class="help-button" id="googleHelp" type="button" aria-label="Googleカレンダーに追加の説明" hidden>?</button>
+            <a class="button" id="googleSubscribe" href="#" target="_blank" rel="noopener" hidden>Google追加画面を開く</a>
+            <button class="help-button" id="googleHelp" type="button" aria-label="Google追加画面を開くの説明" hidden>?</button>
           </span>
           <span class="action-pair">
             <a class="button primary" id="icsDownload" href="../data/events.ics" download>ICSダウンロード</a>
@@ -474,10 +474,10 @@
           return;
         }
         openModal(
-          "Googleカレンダーに追加とは",
-          `<p>公開されたICSのURLを、あなたのGoogleカレンダーに登録するためのボタンです。</p>
-           <p>登録後はGoogleが定期的に日程ファイルを読み取りに行くため、こちらの予定が更新されるとGoogleカレンダー側にも反映されます。</p>
-           <p>反映は即時ではなく、数時間かかることがあります。</p>`,
+          "Google追加画面を開くとは",
+          `<p>Googleカレンダーの登録確認画面を開くためのボタンです。</p>
+           <p>開いた画面で「追加」を押すと、あなたのGoogleカレンダーに登録できます。</p>
+           <p>Googleの仕様上、この確認操作を省略して自動登録することはできません。反映は即時ではなく、数時間かかることがあります。</p>`,
         );
       }
 
