@@ -259,14 +259,18 @@
         return new URL(value, window.location.href).toString();
       }
 
-      function googleCalendarSubscribeUrl(value, googleCalendarId = "") {
+      function googleCalendarSubscribeUrl(value) {
         const url = new URL("https://calendar.google.com/calendar/render");
-        if (googleCalendarId) {
-          url.searchParams.set("cid", googleCalendarId);
-          return url.toString();
-        }
         const subscriptionUrl = value.replace(/^https?:\/\//, "webcal://");
         url.searchParams.set("cid", subscriptionUrl);
+        return url.toString();
+      }
+
+      function googleCalendarOfficialUrl(googleCalendarId) {
+        const url = new URL("https://calendar.google.com/calendar/embed");
+        url.searchParams.set("src", googleCalendarId);
+        url.searchParams.set("ctz", "Asia/Tokyo");
+        url.searchParams.set("mode", "AGENDA");
         return url.toString();
       }
 
@@ -307,16 +311,17 @@
         }
         openModal(
           "Googleカレンダーに追加とは",
-          `<p>表示中の例会日程カレンダーを、あなたのGoogleカレンダーに追加するためのボタンです。</p>
-           <p>追加後はGoogleカレンダー上で同じ日程を確認できます。日程ファイルが更新されると、Google側にも反映されます。</p>
-           <p>反映は即時ではなく、数時間かかることがあります。</p>`,
+          `<p>Google公式のカレンダー画面を開くボタンです。</p>
+           <p>開いた画面の左下にある「Googleカレンダーに追加」を押すと、あなたのGoogleカレンダーに追加できます。</p>
+           <p>追加後の反映は即時ではなく、数時間かかることがあります。</p>`,
         );
       }
 
       const publicIcs = absoluteUrl(icsUrl);
       const embedUrl = makeEmbedUrl();
       icsButton.href = icsUrl;
-      subscribeButton.href = googleCalendarSubscribeUrl(publicIcs, calendarId);
+      subscribeButton.href = calendarId ? googleCalendarOfficialUrl(calendarId) : googleCalendarSubscribeUrl(publicIcs);
+      if (calendarId) subscribeButton.textContent = "Google公式画面で追加";
       listButton.href = "index.html?publicIcs=" + encodeURIComponent(publicIcs) + (calendarId ? "&calendarId=" + encodeURIComponent(calendarId) : "");
 
       icsHelpEl.addEventListener("click", () => openHelp("ics"));
