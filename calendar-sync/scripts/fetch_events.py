@@ -177,7 +177,7 @@ def generate_rule_candidates(venue: dict, base: date, include_future_count: int)
         part
         for part in (
             f"{venue['name']} 公式サイト記載の開催ルール: {label}",
-            "開催 18時00分から21時00分",
+            f"開催 {venue['defaultStart']}から{venue['defaultEnd']}",
             "会場",
             venue.get("location", ""),
         )

@@ -1,8 +1,8 @@
 {
   "calendarName": "守成クラブ兵庫県・近隣会場 例会日程",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-07-03T16:56:54+09:00",
-  "sourceUpdatedAt": "Fri, 03 Jul 2026 16:56:54 +0900",
+  "generatedAt": "2026-07-04T11:13:00+09:00",
+  "sourceUpdatedAt": "Sat, 04 Jul 2026 11:13:00 +0900",
   "events": [
     {
       "id": "6a54d7a24602fc1d6a0c1c452f8d3f584d8ac60d@shusei-hyogo-calendar",
@@ -184,7 +184,7 @@
       "location": "ホテルヴィスキオ尼崎",
       "sourceUrl": "https://hanshin-ama-shusei.club/",
       "confidence": 100,
-      "sourceText": "阪神尼崎会場 公式サイト記載の開催ルール: 毎月第3水曜日 / 開催 18時00分から21時00分 / 会場 / ホテルヴィスキオ尼崎"
+      "sourceText": "阪神尼崎会場 公式サイト記載の開催ルール: 毎月第3水曜日 / 開催 18:00から21:00 / 会場 / ホテルヴィスキオ尼崎"
     },
     {
       "id": "b89d1e49d38e87789830e4fa508dcb2d2bd435ad@shusei-hyogo-calendar",
@@ -198,6 +198,19 @@
       "sourceUrl": "https://hiru-nishinomiyaebisu-shusei.club/",
       "confidence": 95,
       "sourceText": "ください。 / マイページはこちら / 例会のお知らせ / 日程 / 2026年7月17日（金） / 開催 / 時間: 11:00〜14:00（受付開始10:00〜） / 会場"
+    },
+    {
+      "id": "c256b5700ecf219d5cf69eb37b03c80ec2d60aed@shusei-hyogo-calendar",
+      "venue": "昼の明石会場",
+      "area": "播磨",
+      "title": "守成クラブ昼の明石会場 例会",
+      "date": "2026-07-21",
+      "startsAt": "2026-07-21T12:30:00+09:00",
+      "endsAt": "2026-07-21T15:30:00+09:00",
+      "location": "グリーンヒルホテル明石",
+      "sourceUrl": "https://hirunoakashi-shusei.club/",
+      "confidence": 100,
+      "sourceText": "昼の明石会場 公式サイト記載の開催ルール: 毎月第3火曜日 / 開催 12:30から15:30 / 会場 / グリーンヒルホテル明石"
     },
     {
       "id": "61a58743cc51fb1add7272f3135892d4f4f44655@shusei-hyogo-calendar",
@@ -302,6 +315,19 @@
       "sourceUrl": "https://hirunoashiya-shusei.club/",
       "confidence": 100,
       "sourceText": "▶抽選に外れた場合は、当選するまで申請していただいて構いません。 / プロフィールシートのダウンロードはこちら（エクセル） / アクセスマップ / 今後のスケジュール / 第46回 2026年8月4日(火) 芦屋モノリス / ※8月は開催日が異なります、ご注意ください / 第50回 2026年12月8日(火) 芦屋モノリス / 第47回 2026年9月8日(火) 芦屋モノリス"
+    },
+    {
+      "id": "2eced046dc7c8b6379cb047f057d11b5e8950a79@shusei-hyogo-calendar",
+      "venue": "あさの明石会場",
+      "area": "播磨",
+      "title": "守成クラブあさの明石会場 例会",
+      "date": "2026-08-05",
+      "startsAt": "2026-08-05T10:00:00+09:00",
+      "endsAt": "2026-08-05T12:00:00+09:00",
+      "location": "",
+      "sourceUrl": "https://asanoakashi-shusei.club/",
+      "confidence": 100,
+      "sourceText": "他会場所属 / 参加申込フォーム / 開催概要 / 日程 / 2026年8月5日（水） / 開催 / 時間:10:00〜12:00（受付9:00〜） / 大名刺交換会がありますので、9:45までに受付を済ませておいてください。"
     },
     {
       "id": "e1aa563b83375ffc4c81b8c0faa1ca4a052a722b@shusei-hyogo-calendar",
@@ -434,6 +460,19 @@
       "sourceText": "第74回 / 7月27日（月） / ※第4月 / 第75回 / 8月17日（月） / 第76回 / 9月28日（月） / ※第4月"
     },
     {
+      "id": "8a8afb68f584fe2626b8193f927eca127f37f9b2@shusei-hyogo-calendar",
+      "venue": "昼の明石会場",
+      "area": "播磨",
+      "title": "守成クラブ昼の明石会場 例会",
+      "date": "2026-08-18",
+      "startsAt": "2026-08-18T12:30:00+09:00",
+      "endsAt": "2026-08-18T15:30:00+09:00",
+      "location": "グリーンヒルホテル明石",
+      "sourceUrl": "https://hirunoakashi-shusei.club/",
+      "confidence": 100,
+      "sourceText": "昼の明石会場 公式サイト記載の開催ルール: 毎月第3火曜日 / 開催 12:30から15:30 / 会場 / グリーンヒルホテル明石"
+    },
+    {
       "id": "a5eb35ef407bcec3e3adbd3fc21954d82aa21081@shusei-hyogo-calendar",
       "venue": "神戸西会場",
       "area": "神戸",
@@ -470,7 +509,7 @@
       "location": "ホテルヴィスキオ尼崎",
       "sourceUrl": "https://hanshin-ama-shusei.club/",
       "confidence": 100,
-      "sourceText": "阪神尼崎会場 公式サイト記載の開催ルール: 毎月第3水曜日 / 開催 18時00分から21時00分 / 会場 / ホテルヴィスキオ尼崎"
+      "sourceText": "阪神尼崎会場 公式サイト記載の開催ルール: 毎月第3水曜日 / 開催 18:00から21:00 / 会場 / ホテルヴィスキオ尼崎"
     },
     {
       "id": "2f9ee884b6798dbeb80ec9340940da4fc15c8c57@shusei-hyogo-calendar",
@@ -662,10 +701,10 @@
       "date": "2026-09-15",
       "startsAt": "2026-09-15T12:30:00+09:00",
       "endsAt": "2026-09-15T15:30:00+09:00",
-      "location": "",
+      "location": "グリーンヒルホテル明石",
       "sourceUrl": "https://hirunoakashi-shusei.club/",
-      "confidence": 85,
-      "sourceText": "7月21日（火） / 第30回 / 8月18日（火） / 第31回 / 9月15日（火） / 第32回 / 10月20日（火） / 第33回"
+      "confidence": 100,
+      "sourceText": "昼の明石会場 公式サイト記載の開催ルール: 毎月第3火曜日 / 開催 12:30から15:30 / 会場 / グリーンヒルホテル明石"
     },
     {
       "id": "f23943003531b638f10cdeefa77102411fa8d95b@shusei-hyogo-calendar",
@@ -704,7 +743,7 @@
       "location": "ホテルヴィスキオ尼崎",
       "sourceUrl": "https://hanshin-ama-shusei.club/",
       "confidence": 100,
-      "sourceText": "阪神尼崎会場 公式サイト記載の開催ルール: 毎月第3水曜日 / 開催 18時00分から21時00分 / 会場 / ホテルヴィスキオ尼崎"
+      "sourceText": "阪神尼崎会場 公式サイト記載の開催ルール: 毎月第3水曜日 / 開催 18:00から21:00 / 会場 / ホテルヴィスキオ尼崎"
     },
     {
       "id": "1163b518632e21ba218bd8ab3b99305062ed5ac8@shusei-hyogo-calendar",
@@ -822,19 +861,6 @@
       "sourceUrl": "https://kobe-oriental-shusei.club/",
       "confidence": 60,
       "sourceText": "〒650-0034 兵庫県神戸市中央区京町25 / 第68回 / 9月2日（水） / 第69回 / 10月1日（木） / 第70回 / 11月4日（水） / 事務局からのお知らせ"
-    },
-    {
-      "id": "268042a461c51c84442bb546d372922a3d840976@shusei-hyogo-calendar",
-      "venue": "あさの明石会場",
-      "area": "播磨",
-      "title": "守成クラブあさの明石会場 例会",
-      "date": "2026-10-07",
-      "startsAt": "2026-10-07T10:00:00+09:00",
-      "endsAt": "2026-10-07T12:00:00+09:00",
-      "location": "",
-      "sourceUrl": "https://asanoakashi-shusei.club/",
-      "confidence": 85,
-      "sourceText": "08月05日（水） / 第7回 / 09月02日（水） / 第8回 / 10月07日（水） / 第9回 / 11月04日（水） / 第10回"
     },
     {
       "id": "0bcae783fd3f99bc34b0d3ec639ad2f89eaad9c0@shusei-hyogo-calendar",
@@ -961,10 +987,10 @@
       "date": "2026-10-20",
       "startsAt": "2026-10-20T12:30:00+09:00",
       "endsAt": "2026-10-20T15:30:00+09:00",
-      "location": "",
+      "location": "グリーンヒルホテル明石",
       "sourceUrl": "https://hirunoakashi-shusei.club/",
-      "confidence": 85,
-      "sourceText": "8月18日（火） / 第31回 / 9月15日（火） / 第32回 / 10月20日（火） / 第33回 / 11月17日（火） / 第34回"
+      "confidence": 100,
+      "sourceText": "昼の明石会場 公式サイト記載の開催ルール: 毎月第3火曜日 / 開催 12:30から15:30 / 会場 / グリーンヒルホテル明石"
     },
     {
       "id": "001e35cd4a5b07afd11ade0dbcccefb4c7b84e48@shusei-hyogo-calendar",
@@ -1016,7 +1042,7 @@
       "location": "ホテルヴィスキオ尼崎",
       "sourceUrl": "https://hanshin-ama-shusei.club/",
       "confidence": 100,
-      "sourceText": "阪神尼崎会場 公式サイト記載の開催ルール: 毎月第3水曜日 / 開催 18時00分から21時00分 / 会場 / ホテルヴィスキオ尼崎"
+      "sourceText": "阪神尼崎会場 公式サイト記載の開催ルール: 毎月第3水曜日 / 開催 18:00から21:00 / 会場 / ホテルヴィスキオ尼崎"
     },
     {
       "id": "4a9a5b7cf46087a55a20df965e483e61dd904250@shusei-hyogo-calendar",
@@ -1195,10 +1221,10 @@
       "date": "2026-11-17",
       "startsAt": "2026-11-17T12:30:00+09:00",
       "endsAt": "2026-11-17T15:30:00+09:00",
-      "location": "",
+      "location": "グリーンヒルホテル明石",
       "sourceUrl": "https://hirunoakashi-shusei.club/",
-      "confidence": 85,
-      "sourceText": "9月15日（火） / 第32回 / 10月20日（火） / 第33回 / 11月17日（火） / 第34回 / 12月15日（火） / 守成クラブとは"
+      "confidence": 100,
+      "sourceText": "昼の明石会場 公式サイト記載の開催ルール: 毎月第3火曜日 / 開催 12:30から15:30 / 会場 / グリーンヒルホテル明石"
     },
     {
       "id": "ddbae10e1599aade18335f7e70734693b29069a9@shusei-hyogo-calendar",
@@ -1250,7 +1276,7 @@
       "location": "ホテルヴィスキオ尼崎",
       "sourceUrl": "https://hanshin-ama-shusei.club/",
       "confidence": 100,
-      "sourceText": "阪神尼崎会場 公式サイト記載の開催ルール: 毎月第3水曜日 / 開催 18時00分から21時00分 / 会場 / ホテルヴィスキオ尼崎"
+      "sourceText": "阪神尼崎会場 公式サイト記載の開催ルール: 毎月第3水曜日 / 開催 18:00から21:00 / 会場 / ホテルヴィスキオ尼崎"
     },
     {
       "id": "d8f3dd9be7ecb2eaa05c0afefefc40255750e0db@shusei-hyogo-calendar",
@@ -1403,10 +1429,10 @@
       "date": "2026-12-15",
       "startsAt": "2026-12-15T12:30:00+09:00",
       "endsAt": "2026-12-15T15:30:00+09:00",
-      "location": "",
+      "location": "グリーンヒルホテル明石",
       "sourceUrl": "https://hirunoakashi-shusei.club/",
-      "confidence": 85,
-      "sourceText": "10月20日（火） / 第33回 / 11月17日（火） / 第34回 / 12月15日（火） / 守成クラブとは / 昼の明石会場概要 / マイページ"
+      "confidence": 100,
+      "sourceText": "昼の明石会場 公式サイト記載の開催ルール: 毎月第3火曜日 / 開催 12:30から15:30 / 会場 / グリーンヒルホテル明石"
     },
     {
       "id": "1d1857dc3d4188f9c8e927f3ad1194277b76b140@shusei-hyogo-calendar",
@@ -1458,7 +1484,7 @@
       "location": "ホテルヴィスキオ尼崎",
       "sourceUrl": "https://hanshin-ama-shusei.club/",
       "confidence": 100,
-      "sourceText": "阪神尼崎会場 公式サイト記載の開催ルール: 毎月第3水曜日 / 開催 18時00分から21時00分 / 会場 / ホテルヴィスキオ尼崎"
+      "sourceText": "阪神尼崎会場 公式サイト記載の開催ルール: 毎月第3水曜日 / 開催 18:00から21:00 / 会場 / ホテルヴィスキオ尼崎"
     },
     {
       "id": "f38c9b4f5644e9bc2d811bdd852ea53cf90fcbb6@shusei-hyogo-calendar",

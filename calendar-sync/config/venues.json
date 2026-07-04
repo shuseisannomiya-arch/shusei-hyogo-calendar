@@ -148,7 +148,14 @@
       "area": "播磨",
       "url": "https://hirunoakashi-shusei.club/",
       "defaultStart": "12:30",
-      "defaultEnd": "15:30"
+      "defaultEnd": "15:30",
+      "location": "グリーンヒルホテル明石",
+      "scheduleRule": {
+        "type": "monthlyNthWeekday",
+        "nth": 3,
+        "weekday": 1,
+        "label": "毎月第3火曜日"
+      }
     },
     {
       "name": "川西池田会場",
