@@ -214,8 +214,8 @@
       <div id="calendarMount"></div>
       <nav class="actions" aria-label="カレンダー操作">
         <span class="action-pair">
-          <a class="button primary" id="subscribeButton" href="#" target="_blank" rel="noopener">Google追加画面を開く</a>
-          <button class="help-button" id="googleHelp" type="button" aria-label="Google追加画面を開くの説明">?</button>
+          <a class="button primary" id="subscribeButton" href="#" target="_blank" rel="noopener">Googleカレンダーに追加</a>
+          <button class="help-button" id="googleHelp" type="button" aria-label="Googleカレンダーに追加の説明">?</button>
         </span>
         <span class="action-pair">
           <a class="button" id="icsButton" href="#" download>ICSダウンロード</a>
@@ -241,7 +241,7 @@
       const isPublicPath = window.location.pathname.includes("/public/");
       const dataBase = isPublicPath ? "../data" : "data";
       const icsUrl = params.get("publicIcs") || params.get("ics") || dataBase + "/events.ics";
-      const calendarId = params.get("calendarId");
+      const calendarId = params.get("calendarId") || "uhtg5h2d37m91ak59op7kr6kj90jb2do@import.calendar.google.com";
       const googleEmbed = params.get("googleEmbed");
       const mount = document.querySelector("#calendarMount");
       const subscribeButton = document.querySelector("#subscribeButton");
@@ -259,9 +259,9 @@
         return new URL(value, window.location.href).toString();
       }
 
-      function googleCalendarSubscribeUrl(value) {
+      function googleCalendarSubscribeUrl(value, googleCalendarId = "") {
         const url = new URL("https://calendar.google.com/calendar/render");
-        url.searchParams.set("cid", value);
+        url.searchParams.set("cid", googleCalendarId || value);
         return url.toString();
       }
 
@@ -301,17 +301,17 @@
           return;
         }
         openModal(
-          "Google追加画面を開くとは",
-          `<p>Googleカレンダーの登録確認画面を開くためのボタンです。</p>
-           <p>開いた画面で「追加」を押すと、あなたのGoogleカレンダーに登録できます。</p>
-           <p>Googleの仕様上、この確認操作を省略して自動登録することはできません。反映は即時ではなく、数時間かかることがあります。</p>`,
+          "Googleカレンダーに追加とは",
+          `<p>守成クラブ兵庫県・近隣会場のGoogleカレンダーを、あなたのGoogleカレンダーに追加するためのボタンです。</p>
+           <p>開いた確認画面で「追加」を押すと登録できます。</p>
+           <p>Googleの仕様上、確認画面での「追加」操作は必要です。反映は即時ではなく、数時間かかることがあります。</p>`,
         );
       }
 
       const publicIcs = absoluteUrl(icsUrl);
       const embedUrl = makeEmbedUrl();
       icsButton.href = icsUrl;
-      subscribeButton.href = googleCalendarSubscribeUrl(publicIcs);
+      subscribeButton.href = googleCalendarSubscribeUrl(publicIcs, calendarId);
       listButton.href = "index.html?publicIcs=" + encodeURIComponent(publicIcs) + (calendarId ? "&calendarId=" + encodeURIComponent(calendarId) : "");
 
       icsHelpEl.addEventListener("click", () => openHelp("ics"));
@@ -331,7 +331,7 @@
           <section class="setup">
             <strong>Googleカレンダーの埋め込みURL、またはカレンダーIDを指定してください。</strong>
             <span>例: google-calendar.html?calendarId=xxxx%40group.calendar.google.com&publicIcs=${encodeURIComponent(publicIcs)}</span>
-            <span>先に下の「Google追加画面を開く」からICSを登録し、Googleカレンダー側で公開設定と埋め込みURLの取得を行います。</span>
+            <span>先に下の「Googleカレンダーに追加」から登録し、Googleカレンダー側で公開設定と埋め込みURLの取得を行います。</span>
           </section>
         `;
       }
