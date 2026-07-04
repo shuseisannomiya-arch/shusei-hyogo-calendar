@@ -44,7 +44,6 @@
       "url": "https://hanshin-ama-shusei.club/",
       "defaultStart": "18:00",
       "defaultEnd": "21:00",
-      "location": "ホテルヴィスキオ尼崎",
       "scheduleRule": {
         "type": "monthlyNthWeekday",
         "nth": 3,
@@ -149,7 +148,6 @@
       "url": "https://hirunoakashi-shusei.club/",
       "defaultStart": "12:30",
       "defaultEnd": "15:30",
-      "location": "グリーンヒルホテル明石",
       "scheduleRule": {
         "type": "monthlyNthWeekday",
         "nth": 3,

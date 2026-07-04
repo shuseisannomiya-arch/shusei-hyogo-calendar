@@ -178,8 +178,6 @@ def generate_rule_candidates(venue: dict, base: date, include_future_count: int)
         for part in (
             f"{venue['name']} 公式サイト記載の開催ルール: {label}",
             f"開催 {venue['defaultStart']}から{venue['defaultEnd']}",
-            "会場",
-            venue.get("location", ""),
         )
         if part
     )
@@ -268,7 +266,7 @@ def build_event(venue: dict, candidate: Candidate) -> dict:
         "date": candidate.event_date.isoformat(),
         "startsAt": starts_at.isoformat(),
         "endsAt": ends_at.isoformat(),
-        "location": extract_location(candidate.context) or venue.get("location", ""),
+        "location": "",
         "sourceUrl": venue["url"],
         "confidence": max(0, min(100, 55 + candidate.score * 5)),
         "sourceText": " / ".join(candidate.context.splitlines()[:8]),
@@ -337,8 +335,6 @@ def write_ics(events: list[dict], path: Path, calendar_name: str) -> None:
             f"DTEND:{ends}",
             f"SUMMARY:{escape_ics(event['title'])}",
         ]
-        if event.get("location"):
-            event_lines.append(f"LOCATION:{escape_ics(event['location'])}")
         event_lines.extend(
             [
                 f"DESCRIPTION:{escape_ics(description)}",

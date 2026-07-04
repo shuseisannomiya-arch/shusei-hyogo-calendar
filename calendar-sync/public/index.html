@@ -439,7 +439,6 @@
         url.searchParams.set("text", event.title);
         url.searchParams.set("dates", `${formatGoogleDate(event.startsAt)}/${formatGoogleDate(event.endsAt)}`);
         url.searchParams.set("details", `出典: ${event.sourceUrl}`);
-        url.searchParams.set("location", event.location || "");
         return url.toString();
       }
 
@@ -488,7 +487,6 @@
           `会場: ${event.venue}`,
           `日付: ${event.date}`,
           `時間: ${formatTime(event.startsAt)}-${formatTime(event.endsAt)}`,
-          `場所: ${event.location || "未取得"}`,
           `公式ページ: ${event.sourceUrl}`,
         ].join("\n");
         const subject = `日程の間違い報告: ${event.venue} ${event.date}`;
@@ -538,7 +536,6 @@
                   <ul class="meta">
                     <li>${formatTime(event.startsAt)}-${formatTime(event.endsAt)}</li>
                     <li>${event.area || "兵庫県"}</li>
-                    ${event.location ? `<li>${event.location}</li>` : ""}
                     <li>信頼度 ${event.confidence}%</li>
                   </ul>
                 </div>
