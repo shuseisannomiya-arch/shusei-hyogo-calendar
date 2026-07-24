@@ -5,7 +5,7 @@
 ## 無料で使う構成
 
 - GitHub public repository: コード置き場
-- GitHub Actions: 月1回 `fetch_events.py` を自動実行
+- GitHub Actions: 週1回 `fetch_events.py` を自動実行
 - GitHub Pages: カレンダー表示ページ、`events.json`、`events.ics` を公開
 - WordPress: GitHub Pages のURLを iframe で貼る
 - Google カレンダー: 公開された `events.ics` URLを購読
@@ -105,9 +105,9 @@ Google カレンダーの「埋め込みコード」に入っているURLをそ�
 - ICSダウンロード
 - 一覧で見る
 
-## 月1回の自動更新
+## 週1回の自動更新
 
-`.github/workflows/deploy-calendar-pages.yml` が毎月1日 09:20（日本時間）に動きます。
+`.github/workflows/deploy-calendar-pages.yml` が毎週月曜日 09:20（日本時間）に動きます。
 
 処理内容:
 

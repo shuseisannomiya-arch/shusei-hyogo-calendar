@@ -42,15 +42,15 @@ WordPressなら「カスタムHTML」ブロックにそのまま貼れます。
 
 iframe の `publicIcs=` に同じICS URLを指定すると、画面上に「Googleカレンダーに追加」ボタンが表示されます。
 
-## 月1回の自動更新
+## 週1回の自動更新
 
 サーバーの cron 例:
 
 ```cron
-15 3 1 * * cd /path/to/calendar-sync && /usr/bin/python3 scripts/fetch_events.py
+15 3 * * 1 cd /path/to/calendar-sync && /usr/bin/python3 scripts/fetch_events.py
 ```
 
-GitHub Pages などへ公開する場合は、月1回の GitHub Actions で `python3 scripts/fetch_events.py` を実行し、`data/events.json` と `data/events.ics` をコミットまたはデプロイしてください。
+GitHub Pages などへ公開する場合は、週1回の GitHub Actions で `python3 scripts/fetch_events.py` を実行し、`data/events.json` と `data/events.ics` をコミットまたはデプロイしてください。
 
 ## 会場の追加・修正
 
