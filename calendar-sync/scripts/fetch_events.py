@@ -43,19 +43,27 @@ LINE_SKIP_WORDS = ("締切", "〆切", "キャンセル", "受付〆切", "受�
 class VisibleTextParser(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self._skip = 0
+        self._tag_stack: list[tuple[str, bool]] = []
         self.lines: list[str] = []
 
     def handle_starttag(self, tag, attrs):
-        if tag in {"script", "style", "noscript", "svg"}:
-            self._skip += 1
+        attr_map = dict(attrs)
+        classes = set((attr_map.get("class") or "").split())
+        skip = (
+            any(item[1] for item in self._tag_stack)
+            or tag in {"script", "style", "noscript", "svg"}
+            or "custom-schedule-container" in classes
+        )
+        self._tag_stack.append((tag, skip))
 
     def handle_endtag(self, tag):
-        if tag in {"script", "style", "noscript", "svg"} and self._skip:
-            self._skip -= 1
+        for index in range(len(self._tag_stack) - 1, -1, -1):
+            if self._tag_stack[index][0] == tag:
+                del self._tag_stack[index:]
+                break
 
     def handle_data(self, data):
-        if self._skip:
+        if any(item[1] for item in self._tag_stack):
             return
         text = re.sub(r"\s+", " ", html.unescape(data).translate(ZEN_TO_HALF)).strip()
         if text:
@@ -273,7 +281,9 @@ def build_event(venue: dict, candidate: Candidate) -> dict:
     }
 
 
-def scrape(config: dict, base: date, include_future_count: int) -> tuple[list[dict], list[dict]]:
+def scrape(
+    config: dict, base: date, include_future_count: int, max_days_ahead: int
+) -> tuple[list[dict], list[dict]]:
     events: list[dict] = []
     errors: list[dict] = []
     for venue in config["venues"]:
@@ -282,6 +292,11 @@ def scrape(config: dict, base: date, include_future_count: int) -> tuple[list[di
             candidates = generate_rule_candidates(venue, base, include_future_count)
             if candidates is None:
                 candidates = unique_candidates(collect_candidates(lines, base))
+            candidates = [
+                candidate
+                for candidate in candidates
+                if candidate.event_date <= base + timedelta(days=max_days_ahead)
+            ]
             picked = candidates[:include_future_count]
             for candidate in picked:
                 events.append(build_event(venue, candidate))
@@ -353,7 +368,8 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="守成クラブ兵庫県会場の日程を取得してJSON/ICSを生成します。")
     parser.add_argument("--config", default="config/venues.json")
     parser.add_argument("--out-dir", default="data")
-    parser.add_argument("--future-count", type=int, default=6, help="各会場から拾う未来日程の最大件数")
+    parser.add_argument("--future-count", type=int, default=3, help="各会場から拾う未来日程の最大件数")
+    parser.add_argument("--max-days-ahead", type=int, default=180, help="掲載する日程の最大先行日数")
     parser.add_argument("--today", help="テスト用基準日 YYYY-MM-DD")
     args = parser.parse_args()
 
@@ -364,7 +380,7 @@ def main() -> int:
 
     config = json.loads(config_path.read_text(encoding="utf-8"))
     base = date.fromisoformat(args.today) if args.today else datetime.now(JST).date()
-    events, errors = scrape(config, base, args.future_count)
+    events, errors = scrape(config, base, args.future_count, args.max_days_ahead)
     payload = {
         "calendarName": config["calendarName"],
         "timezone": config.get("timezone", "Asia/Tokyo"),
