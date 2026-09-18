@@ -151,6 +151,8 @@ def collect_candidates(lines: list[str], base: date) -> list[Candidate]:
                 context = "\n".join(window)
                 raw_date = match.group(0)
                 score = score_context(context, raw_date)
+                if re.search(r"第\s*\d+\s*回", label_window):
+                    score += 6
                 if score > -4:
                     candidates.append(Candidate(event_date, score, context, raw_date))
     return candidates
